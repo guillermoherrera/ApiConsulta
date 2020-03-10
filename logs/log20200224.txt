@@ -1,0 +1,12 @@
+2020-02-24T08:50:31.9424689-06:00 [INF] [] : Iniciado API...
+2020-02-24T08:50:37.8056338-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-24T08:50:40.3737482-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-24T08:50:40.3741387-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-24T08:50:40.3745011-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-24T08:50:40.3745413-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-24T08:50:40.3745720-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\gitlab\asesoresapi"
+2020-02-24T08:50:46.4597571-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-24T08:50:47.1981659-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 750.057ms 200 text/html;charset=utf-8
+2020-02-24T08:50:47.7245009-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-24T08:50:48.0922439-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 368.2203ms 200 application/json;charset=utf-8
+2020-02-24T17:10:35.0241802-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application is shutting down...

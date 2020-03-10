@@ -1,0 +1,15 @@
+2020-02-27T13:51:56.1442701-06:00 [INF] [] : Iniciado API...
+2020-02-27T13:51:59.9987673-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-27T13:52:02.0585026-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-27T13:52:02.0587752-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-27T13:52:02.0589856-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-27T13:52:02.0590096-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-27T13:52:02.0590261-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\gitlab\asesoresapi"
+2020-02-27T14:17:46.5839324-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-27T14:17:47.1124586-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 531.718ms 200 text/html;charset=utf-8
+2020-02-27T14:17:47.6098495-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-27T14:17:47.8171082-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 206.8925ms 200 application/json;charset=utf-8
+2020-02-27T14:17:51.1965798-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-27T14:17:51.2026834-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6.8931ms 200 text/html;charset=utf-8
+2020-02-27T14:17:51.3328966-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-27T14:17:51.3396712-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 7.7461ms 200 application/json;charset=utf-8

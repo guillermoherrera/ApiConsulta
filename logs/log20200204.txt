@@ -1,0 +1,1108 @@
+2020-02-04T11:57:13.7209193-06:00 [INF] [] : Iniciado API...
+2020-02-04T11:57:16.6990362-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T11:57:18.0718846-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T11:57:18.0722172-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T11:57:18.0725727-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T11:57:18.0726214-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T11:57:18.0726628-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T11:57:20.6254713-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T11:57:21.0117630-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 388.8379ms 200 text/html;charset=utf-8
+2020-02-04T11:57:21.1680801-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T11:57:21.1829719-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T11:57:21.2173938-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T11:57:21.2176682-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 34.6378ms 200 image/png
+2020-02-04T11:57:21.2782428-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 110.2604ms 200 application/json;charset=utf-8
+2020-02-04T11:57:30.3883016-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T11:57:30.4190250-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T11:57:30.7421935-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T11:57:30.7897608-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T11:57:30.9275007-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T11:57:30.9305715-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"WebApi.Entities.Usuario"'.
+2020-02-04T11:57:30.9507293-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 155.0233ms
+2020-02-04T11:57:30.9508639-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T11:57:30.9510743-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 563.1931ms 200 application/json; charset=utf-8
+2020-02-04T11:57:38.9222831-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/usuarios  
+2020-02-04T11:57:38.9302058-06:00 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] : Authorization failed.
+2020-02-04T11:57:38.9358036-06:00 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] : AuthenticationScheme: "Bearer" was challenged.
+2020-02-04T11:57:38.9361096-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 13.9332ms 401 
+2020-02-04T11:57:58.9083415-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/usuarios  
+2020-02-04T11:57:59.0162412-06:00 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] : Successfully validated the token.
+2020-02-04T11:57:59.0176738-06:00 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] : Authorization was successful.
+2020-02-04T11:57:59.0177992-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.GetAll (AsesoresAPI)"'
+2020-02-04T11:57:59.0214818-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetAll\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T11:57:59.0274666-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[WebApi.Entities.Usuario, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[WebApi.Entities.Usuario, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-04T11:57:59.0299453-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.GetAll (AsesoresAPI)" in 8.3198ms
+2020-02-04T11:57:59.0300172-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.GetAll (AsesoresAPI)"'
+2020-02-04T11:57:59.0301831-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 122.256ms 200 application/json; charset=utf-8
+2020-02-04T12:14:01.8155144-06:00 [INF] [] : Iniciado API...
+2020-02-04T12:14:03.0573606-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T12:14:03.4519958-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T12:14:03.4520782-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T12:14:03.4525080-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T12:14:03.4525314-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T12:14:03.4525459-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T12:16:39.8024905-06:00 [INF] [] : Iniciado API...
+2020-02-04T12:16:40.5292272-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T12:16:40.9130516-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T12:16:40.9131497-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T12:16:40.9135898-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T12:16:40.9136251-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T12:16:40.9136475-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T12:17:27.9325496-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T12:17:28.1070157-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 177.1683ms 200 text/html;charset=utf-8
+2020-02-04T12:17:28.3373205-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T12:17:28.3445426-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T12:17:28.3641864-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T12:17:28.3644007-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 27.194ms 200 image/png
+2020-02-04T12:17:28.4251938-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 80.975ms 200 application/json;charset=utf-8
+2020-02-04T12:17:32.3756253-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T12:17:32.3983875-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T12:17:32.4679517-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T12:17:32.4980519-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T12:17:36.3010932-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 3798.1509ms
+2020-02-04T12:17:36.3073782-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T12:17:36.3141558-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-04T12:17:36.4983936-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4122.9465ms 500 text/plain
+2020-02-04T12:19:44.7852316-06:00 [INF] [] : Iniciado API...
+2020-02-04T12:19:46.0864856-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T12:19:46.5662112-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T12:19:46.5663089-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T12:19:46.5665810-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T12:19:46.5666228-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T12:19:46.5666846-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T12:19:54.7877785-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T12:19:54.9736820-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 188.377ms 200 text/html;charset=utf-8
+2020-02-04T12:19:55.2393361-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T12:19:55.2466572-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T12:19:55.2683630-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T12:19:55.2686244-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 29.5216ms 200 image/png
+2020-02-04T12:19:55.3521343-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 105.4963ms 200 application/json;charset=utf-8
+2020-02-04T12:20:01.3259444-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T12:20:01.3493646-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T12:20:01.4177198-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T12:20:01.4498038-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T12:20:01.5617801-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 107.3252ms
+2020-02-04T12:20:01.5626371-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T12:20:01.5639168-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-04T12:20:01.6155747-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 289.9805ms 500 text/plain
+2020-02-04T14:25:25.1913921-06:00 [INF] [] : Iniciado API...
+2020-02-04T14:25:27.0586779-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T14:25:28.1733029-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T14:25:28.1733824-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T14:25:28.1735323-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T14:25:28.1735608-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T14:25:28.1735786-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T14:25:36.6630164-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T14:25:36.7082509-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T14:25:37.0468132-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:25:37.0869321-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T14:25:37.3154506-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T14:25:37.3185247-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Threading.Tasks.Task`1[[WebApi.Entities.Usuario, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-04T14:25:37.3470062-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 254.4501ms
+2020-02-04T14:25:37.3476008-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:25:37.3491273-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 688.2073ms 200 application/json; charset=utf-8
+2020-02-04T14:27:23.4059093-06:00 [INF] [] : Iniciado API...
+2020-02-04T14:27:24.1939201-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T14:27:24.6550121-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T14:27:24.6552322-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T14:27:24.6554886-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T14:27:24.6555184-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T14:27:24.6555445-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T14:27:27.3385082-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T14:27:27.3826054-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T14:27:27.4593659-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:27:27.4936253-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T14:27:27.9306660-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T14:27:27.9400053-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 441.8116ms
+2020-02-04T14:27:27.9406582-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:27:27.9421050-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 606.1632ms 400 application/json; charset=utf-8
+2020-02-04T14:27:57.9816441-06:00 [INF] [] : Iniciado API...
+2020-02-04T14:27:58.7714680-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T14:27:59.1562676-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T14:27:59.1564147-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T14:27:59.1568634-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T14:27:59.1568860-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T14:27:59.1568999-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T14:35:35.0974387-06:00 [INF] [] : Iniciado API...
+2020-02-04T14:35:35.9440628-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T14:35:36.3707261-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T14:35:36.3708511-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T14:35:36.3710860-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T14:35:36.3711098-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T14:35:36.3711257-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T14:35:43.2554878-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T14:35:43.5379726-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 284.5377ms 200 text/html;charset=utf-8
+2020-02-04T14:35:43.7769678-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T14:35:43.8699622-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T14:35:43.9134188-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T14:35:43.9136288-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 136.7745ms 200 image/png
+2020-02-04T14:35:43.9851988-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 115.2451ms 200 application/json;charset=utf-8
+2020-02-04T14:35:49.3018343-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T14:35:49.3256896-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T14:35:49.3971621-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:35:49.4275401-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T14:35:49.6798517-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T14:35:49.6888481-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 256.0078ms
+2020-02-04T14:35:49.6889374-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:35:49.6891420-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 387.4169ms 400 application/json; charset=utf-8
+2020-02-04T14:44:49.2901443-06:00 [INF] [] : Iniciado API...
+2020-02-04T14:44:50.4406553-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T14:44:51.1295981-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T14:44:51.1300073-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T14:44:51.1302580-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T14:44:51.1302921-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T14:44:51.1303169-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T14:44:54.7171865-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T14:44:54.8906905-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 176.651ms 200 text/html;charset=utf-8
+2020-02-04T14:44:55.1439410-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T14:44:55.1502469-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T14:44:55.1803329-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T14:44:55.1807470-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 36.9782ms 200 image/png
+2020-02-04T14:44:55.2716394-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 121.3888ms 200 application/json;charset=utf-8
+2020-02-04T14:44:59.6404750-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T14:44:59.6643473-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T14:44:59.7345318-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:44:59.7679232-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T14:45:15.2155724-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T14:45:15.2244779-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 15451.9668ms
+2020-02-04T14:45:15.2250352-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:45:15.2272830-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 15586.9092ms 404 application/json; charset=utf-8
+2020-02-04T14:48:12.4122988-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T14:48:12.4155538-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.7593ms 200 text/html;charset=utf-8
+2020-02-04T14:48:12.6445003-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T14:48:12.6499944-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T14:48:12.6508243-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T14:48:12.6510823-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.9877ms 200 image/png
+2020-02-04T14:48:12.6521943-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 7.8516ms 200 application/json;charset=utf-8
+2020-02-04T14:48:17.8810869-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T14:48:17.8818512-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T14:48:17.8828404-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:48:17.8837398-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T14:48:32.5217774-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T14:48:32.5225713-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 14638.6303ms
+2020-02-04T14:48:32.5228657-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T14:48:32.5235095-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 14642.4736ms 404 application/json; charset=utf-8
+2020-02-04T15:03:22.3790047-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:03:23.1999170-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:03:23.6191726-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:03:23.6193961-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:03:23.6195610-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:03:23.6195955-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:03:23.6196123-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:03:53.1447921-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:03:53.1831171-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:03:53.2533965-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:03:53.2855369-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:04:02.9016442-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:04:02.9040041-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:04:02.9084633-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:04:02.9094499-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:04:08.1020307-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:04:08.1020307-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:04:08.1140693-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 5198.942ms
+2020-02-04T15:04:08.1140693-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 14823.1172ms
+2020-02-04T15:04:08.1150550-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:04:08.1150613-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:04:08.1189343-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5217.0556ms 404 application/json; charset=utf-8
+2020-02-04T15:04:08.1189336-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 14978.3873ms 404 application/json; charset=utf-8
+2020-02-04T15:05:20.9114526-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:05:21.5670442-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:05:22.0542701-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:05:22.0543212-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:05:22.0544877-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:05:22.0545081-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:05:22.0545457-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:05:30.3148032-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:05:30.4738756-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 161.4028ms 200 text/html;charset=utf-8
+2020-02-04T15:05:30.6820464-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:05:30.6938746-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:05:30.7040331-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:05:30.7045133-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 22.3036ms 200 image/png
+2020-02-04T15:05:30.7770418-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 83.1875ms 200 application/json;charset=utf-8
+2020-02-04T15:05:34.8798891-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:05:34.9037509-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:05:34.9758735-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:05:35.0071384-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:05:35.5283053-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:05:35.5360896-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 524.9081ms
+2020-02-04T15:05:35.5367609-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:05:35.5410093-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 661.2676ms 404 application/json; charset=utf-8
+2020-02-04T15:06:02.1584899-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:06:02.8891006-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:06:03.2948314-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:06:03.2949107-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:06:03.2955893-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:06:03.2956178-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:06:03.2956447-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:06:04.5189173-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:06:04.5619471-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:06:04.6329111-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:06:04.6702427-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:06:16.2634011-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:06:16.2775756-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 11600.9889ms
+2020-02-04T15:06:16.2785682-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:06:16.2820215-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 11766.4887ms 404 application/json; charset=utf-8
+2020-02-04T15:09:13.3097345-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:09:14.2803851-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:09:14.6436743-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:09:14.6437601-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:09:14.6440298-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:09:14.6440576-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:09:14.6440855-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:09:20.4605084-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:09:20.5070446-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:09:20.5771396-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:09:20.6076186-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:09:23.5569067-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:09:23.5681838-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 2956.2409ms
+2020-02-04T15:09:23.5690402-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:09:23.5722826-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3115.9511ms 404 application/json; charset=utf-8
+2020-02-04T15:09:31.9743276-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:09:31.9754703-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:10:25.4401310-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:10:26.3082796-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:10:26.7713679-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:10:26.7716554-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:10:26.7718124-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:10:26.7718309-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:10:26.7718452-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:10:34.6089954-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:10:34.6510841-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:10:34.7225109-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:10:34.7565111-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:10:37.8572384-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:10:37.8668058-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 3106.0381ms
+2020-02-04T15:10:37.8677168-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:10:37.8708085-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3264.9092ms 404 application/json; charset=utf-8
+2020-02-04T15:11:05.2017741-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:11:05.2026879-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:11:05.2035469-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:11:05.2040780-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:11:12.3363502-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:11:12.3367990-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:11:12.3372781-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 7133.0695ms
+2020-02-04T15:11:12.3373496-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:11:12.3376817-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 7136.1462ms 400 application/json; charset=utf-8
+2020-02-04T15:14:20.0081889-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:14:21.0259292-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:14:21.4339438-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:14:21.4341395-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:14:21.4344669-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:14:21.4345111-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:14:21.4345393-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:14:23.0907498-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:14:23.1286249-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:14:23.2062035-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:14:23.2395785-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:14:23.5235349-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:14:23.5282462-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:14:23.5377180-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 293.7224ms
+2020-02-04T15:14:23.5386050-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:14:23.5430976-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 455.6159ms 400 application/json; charset=utf-8
+2020-02-04T15:14:25.9946708-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:14:25.9954715-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:14:25.9976841-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:14:26.0071295-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:14:26.0264838-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:14:26.0275709-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:14:26.0281684-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 20.9314ms
+2020-02-04T15:14:26.0283042-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:14:26.0287185-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 34.1112ms 400 application/json; charset=utf-8
+2020-02-04T15:16:04.7848405-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:16:06.0054266-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:16:06.4106239-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:16:06.4109939-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:16:06.4112078-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:16:06.4112365-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:16:06.4112618-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:16:10.4611059-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:16:10.4992628-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:16:10.5737928-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:16:10.6073913-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:16:10.9121502-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:16:10.9199691-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:16:10.9304326-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 318.5578ms
+2020-02-04T15:16:10.9314372-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:16:10.9355135-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 478.2761ms 400 application/json; charset=utf-8
+2020-02-04T15:16:38.8263007-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:16:39.7062179-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:16:40.1895480-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:16:40.1896266-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:16:40.1900073-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:16:40.1900440-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:16:40.1900701-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:16:42.1687620-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:16:42.2107755-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:16:42.2829350-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:16:42.3214225-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:16:42.5929351-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:16:42.6454531-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2020-02-04T15:16:42.6567147-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 330.274ms
+2020-02-04T15:16:42.6577343-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:16:42.6611487-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 496.5275ms 500 application/problem+json; charset=utf-8
+2020-02-04T15:17:17.9017959-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:17:18.9824187-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:17:19.3641690-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:17:19.3642520-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:17:19.3648082-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:17:19.3648353-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:17:19.3648517-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:17:22.2508127-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:17:22.2868197-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:17:22.3526137-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:17:22.3815407-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:17:22.6251950-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:17:22.6305098-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:17:22.6410712-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 254.1656ms
+2020-02-04T15:17:22.6419520-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:17:22.6498815-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 401.4279ms 400 application/json; charset=utf-8
+2020-02-04T15:17:53.9819475-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:17:54.9951200-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:17:55.5944165-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:17:55.5946159-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:17:55.5949245-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:17:55.5949548-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:17:55.5950041-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:18:07.6303797-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:18:07.7873735-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 160.0516ms 200 text/html;charset=utf-8
+2020-02-04T15:18:08.0607613-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:18:08.0638384-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:18:08.0806123-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:18:08.0808274-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 20.311ms 200 image/png
+2020-02-04T15:18:08.1430360-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 79.2451ms 200 application/json;charset=utf-8
+2020-02-04T15:18:12.8554781-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:18:12.8799908-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:18:12.9539524-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:18:12.9859667-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:18:13.2473737-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:18:13.2546038-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:18:13.2629622-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 272.8654ms
+2020-02-04T15:18:13.2634882-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:18:13.2654981-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 410.1816ms 400 application/json; charset=utf-8
+2020-02-04T15:18:54.1022524-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:18:54.1032649-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:18:54.1043373-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:18:54.1051093-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:18:54.1401010-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:18:54.1407841-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:18:54.1412771-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 35.9886ms
+2020-02-04T15:18:54.1413514-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:18:54.1416380-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 39.5361ms 400 application/json; charset=utf-8
+2020-02-04T15:18:56.0488301-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:18:56.0500183-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:18:56.0569947-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:18:56.0573421-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:18:56.0649756-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:18:56.0661100-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:18:56.0671737-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 9.5996ms
+2020-02-04T15:18:56.0673398-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:18:56.0677359-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 19.1175ms 400 application/json; charset=utf-8
+2020-02-04T15:19:00.6772254-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:00.6780594-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:00.6788264-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:00.6795750-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:00.6930449-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:00.6937000-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:00.6944259-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 14.5531ms
+2020-02-04T15:19:00.6945884-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:00.6952693-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 17.9503ms 400 application/json; charset=utf-8
+2020-02-04T15:19:01.6657544-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:01.6664117-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:01.6670582-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:01.6675239-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:01.6839873-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:01.6843272-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:01.6847488-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 17.135ms
+2020-02-04T15:19:01.6847915-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:01.6849776-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 19.4649ms 400 application/json; charset=utf-8
+2020-02-04T15:19:03.2210569-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:19:03.2232762-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.2074ms 200 text/html;charset=utf-8
+2020-02-04T15:19:03.3177827-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:19:03.3199237-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.1901ms 200 application/json;charset=utf-8
+2020-02-04T15:19:03.3236602-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:19:03.3241753-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:19:03.3242156-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.5775ms 200 image/png
+2020-02-04T15:19:06.9239136-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:06.9246233-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:06.9252583-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:06.9262908-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:06.9384737-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:06.9400171-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:06.9422447-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 15.5153ms
+2020-02-04T15:19:06.9426509-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:06.9442633-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 19.7028ms 400 application/json; charset=utf-8
+2020-02-04T15:19:08.4489152-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:08.4493681-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:08.4496869-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:08.4499417-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:08.4577177-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:08.4580687-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:08.4584891-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 8.4697ms
+2020-02-04T15:19:08.4585268-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:08.4586989-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9.8442ms 400 application/json; charset=utf-8
+2020-02-04T15:19:09.1366718-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:09.1370017-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:09.1372964-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:09.1375992-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:09.1453735-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:09.1456864-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:09.1460953-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 8.4026ms
+2020-02-04T15:19:09.1461975-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:09.1465485-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9.8788ms 400 application/json; charset=utf-8
+2020-02-04T15:19:09.4498594-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:09.4502362-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:09.4505946-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:09.4509797-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:09.4613292-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:09.4615847-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:09.4619561-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 10.8715ms
+2020-02-04T15:19:09.4619955-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:09.4621854-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 12.4449ms 400 application/json; charset=utf-8
+2020-02-04T15:19:09.7123091-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:09.7126868-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:09.7130843-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:09.7134218-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:09.7223014-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:09.7226726-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:09.7233005-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 9.7665ms
+2020-02-04T15:19:09.7233826-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:09.7235903-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 11.3021ms 400 application/json; charset=utf-8
+2020-02-04T15:19:10.0084369-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:10.0087260-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:10.0090433-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:10.0093047-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:10.0304120-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:10.0306938-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:10.0311900-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 21.8262ms
+2020-02-04T15:19:10.0312755-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:10.0315958-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 23.1469ms 400 application/json; charset=utf-8
+2020-02-04T15:19:10.2700141-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:10.2703609-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:10.2707971-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:10.2712153-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:10.2799381-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:10.2813098-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:10.2823006-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 10.8682ms
+2020-02-04T15:19:10.2824272-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:10.2827528-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 12.7327ms 400 application/json; charset=utf-8
+2020-02-04T15:19:10.5362963-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:10.5366023-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:10.5369278-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:10.5371234-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:10.5493641-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:10.5496131-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:10.5499065-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 12.7339ms
+2020-02-04T15:19:10.5499453-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:10.5501813-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 13.8993ms 400 application/json; charset=utf-8
+2020-02-04T15:19:14.7850428-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:14.7853166-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:14.7856366-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:14.7859038-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:21.3860098-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:19:21.3862853-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:19:21.3866477-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 6600.6718ms
+2020-02-04T15:19:21.3867042-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:21.3870398-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6601.9739ms 400 application/json; charset=utf-8
+2020-02-04T15:19:38.1501359-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:19:38.9948407-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:19:39.4278973-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:19:39.4279733-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:19:39.4282082-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:19:39.4282374-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:19:39.4282699-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:19:44.4130621-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:19:44.4615261-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:19:44.5327663-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:44.5670924-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:19:51.1391754-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:19:51.1505860-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 6577.8587ms
+2020-02-04T15:19:51.1518411-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:19:51.1556628-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6744.708ms 500 text/plain; charset=utf-8
+2020-02-04T15:20:14.1345957-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:20:15.1329815-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:20:15.6182347-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:20:15.6182962-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:20:15.6186314-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:20:15.6186546-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:20:15.6186703-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:20:18.2013875-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:20:18.3699311-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 170.5609ms 200 text/html;charset=utf-8
+2020-02-04T15:20:18.5021808-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:20:18.5073937-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:20:18.5270896-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:20:18.5273214-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 25.1124ms 200 image/png
+2020-02-04T15:20:18.5953240-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 87.95ms 200 application/json;charset=utf-8
+2020-02-04T15:20:25.8006891-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:20:25.8296374-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:20:25.8990987-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:20:25.9304045-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:20:27.9576122-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:20:27.9634970-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:20:27.9717138-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 2037.0398ms
+2020-02-04T15:20:27.9722401-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:20:27.9742992-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2174.4478ms 400 application/json; charset=utf-8
+2020-02-04T15:25:34.9375966-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:25:35.7967766-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:25:36.2155016-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:25:36.2155824-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:25:36.2157675-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:25:36.2157854-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:25:36.2157991-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:25:42.8846338-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:25:42.9249971-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:25:42.9981837-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:25:43.0332933-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:25:45.1771756-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "mio" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:25:45.1834874-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:25:45.1957364-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 2157.7105ms
+2020-02-04T15:25:45.1970774-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:25:45.2015682-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2319.1851ms 400 application/json; charset=utf-8
+2020-02-04T15:30:17.3769040-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:30:18.2962130-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:30:18.7013277-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:30:18.7017481-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:30:18.7019060-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:30:18.7019234-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:30:18.7019373-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:30:28.1980229-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:30:28.2414713-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:30:28.3238781-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:30:28.3618509-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:30:28.8309806-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "mio" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:30:28.8372796-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:30:28.8454164-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 479.075ms
+2020-02-04T15:30:28.8464637-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:30:28.8498633-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 656.4466ms 200 text/plain; charset=utf-8
+2020-02-04T15:34:57.1870533-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:34:58.1448964-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:34:58.4925113-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:34:58.4925687-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:34:58.4930523-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:34:58.4930754-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:34:58.4930949-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:35:00.0959255-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:35:00.1457011-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:35:00.2124761-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:35:00.2426260-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:35:00.6455196-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:35:00.6560782-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 408.1972ms
+2020-02-04T15:35:00.6569587-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:35:00.6602596-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 567.1615ms 500 text/plain; charset=utf-8
+2020-02-04T15:35:01.7536696-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:35:01.7553078-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:35:01.7666179-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:35:01.7670069-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:35:01.8694778-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:35:01.8698239-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 102.7146ms
+2020-02-04T15:35:01.8699000-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:35:01.8701615-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 117.2142ms 500 text/plain; charset=utf-8
+2020-02-04T15:41:16.2479752-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:41:17.1636889-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:41:17.5289883-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:41:17.5292231-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:41:17.5294031-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:41:17.5294225-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:41:17.5294435-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:42:12.8870287-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:42:12.9216727-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:42:12.9950171-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:42:13.0282901-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:42:13.4268435-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:42:13.4352247-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 402.165ms
+2020-02-04T15:42:13.4361074-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:42:13.4395479-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 554.8468ms 500 text/plain; charset=utf-8
+2020-02-04T15:43:54.6657394-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:43:55.5664092-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:43:56.0060528-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:43:56.0061713-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:43:56.0063066-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:43:56.0063284-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:43:56.0063412-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:44:03.7283864-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:44:03.7675239-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:44:03.8445456-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:44:03.8788055-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:44:04.2522074-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:44:04.2629836-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 378.8599ms
+2020-02-04T15:44:04.2639252-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:44:04.2674726-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 541.262ms 500 text/plain; charset=utf-8
+2020-02-04T15:44:06.3063471-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:44:06.3080981-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:44:06.3243151-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:44:06.3249762-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:44:06.4318042-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:44:06.4360074-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 110.8953ms
+2020-02-04T15:44:06.4360816-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:44:06.4364044-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 130.2342ms 500 text/plain; charset=utf-8
+2020-02-04T15:45:06.8244644-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:45:07.7640262-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:45:08.1954003-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:45:08.1954757-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:45:08.1956404-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:45:08.1956759-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:45:08.1956974-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:45:12.2514652-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:45:12.2907580-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:45:12.3609444-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:45:12.3930942-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:45:12.7959295-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:45:12.8041453-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 406.8551ms
+2020-02-04T15:45:12.8050414-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:45:12.8085035-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 558.9449ms 500 text/plain; charset=utf-8
+2020-02-04T15:45:15.0999737-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:45:15.1007729-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:45:15.1053877-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:45:15.1059287-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:45:15.2106935-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:45:15.2110033-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 104.9833ms
+2020-02-04T15:45:15.2110638-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:45:15.2113145-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 111.4754ms 500 text/plain; charset=utf-8
+2020-02-04T15:45:18.3146798-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:45:18.3162159-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:45:18.3199709-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:47:44.9770963-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:47:46.0027334-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:47:46.4584217-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:47:46.4585077-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:47:46.4587579-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:47:46.4587910-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:47:46.4588274-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:47:51.7937186-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:47:51.8307847-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:47:51.9074820-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:47:51.9439118-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:47:52.5363885-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:47:52.5443617-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 596.1699ms
+2020-02-04T15:47:52.5452655-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:47:52.5493842-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 757.9404ms 500 text/plain; charset=utf-8
+2020-02-04T15:47:54.7900142-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:47:54.9130378-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 123.2219ms 200 text/html;charset=utf-8
+2020-02-04T15:47:55.0173641-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:47:55.0309520-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:47:55.0669502-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:47:55.0672265-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 36.3293ms 200 image/png
+2020-02-04T15:47:55.1307820-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 113.4117ms 200 application/json;charset=utf-8
+2020-02-04T15:47:58.2583384-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:47:58.2598199-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:47:58.2660164-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:47:58.2665356-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:47:58.3731155-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:47:58.3734834-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 106.8668ms
+2020-02-04T15:47:58.3735244-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:47:58.3736962-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 116.8378ms 500 text/plain; charset=utf-8
+2020-02-04T15:48:09.5210758-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:48:09.5223090-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:48:09.5260812-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:48:09.5284712-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:48:23.4459421-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:48:23.4463157-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 13917.7109ms
+2020-02-04T15:48:23.4463689-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:48:23.4465707-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 13925.7157ms 500 text/plain; charset=utf-8
+2020-02-04T15:49:07.1125014-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:49:08.0272849-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:49:08.4478861-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:49:08.4479510-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:49:08.4481314-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:49:08.4481503-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:49:08.4481652-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:49:11.6151166-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:49:11.6615889-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:49:11.7299588-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:49:11.7637449-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:49:15.5617940-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:49:15.5686838-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-04T15:49:15.5809313-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 3812.5818ms
+2020-02-04T15:49:15.5818281-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:49:15.5853310-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3972.9103ms 200 text/plain; charset=utf-8
+2020-02-04T15:50:21.5821982-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:50:22.3978924-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:50:22.8418614-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:50:22.8420564-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:50:22.8424370-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:50:22.8424709-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:50:22.8424983-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:50:27.3531668-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:50:27.3984724-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:50:27.4721143-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:50:27.5025478-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:50:32.4564908-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:50:32.4674160-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"WebApi.Entities.Usuario"'.
+2020-02-04T15:50:32.4813673-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 4973.4519ms
+2020-02-04T15:50:32.4822592-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:50:32.4865672-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5137.6852ms 200 application/json; charset=utf-8
+2020-02-04T15:51:01.7184068-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:51:01.7191352-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:51:01.7197051-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:51:01.7200487-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:51:01.7496734-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:51:01.7501011-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"WebApi.Entities.Usuario"'.
+2020-02-04T15:51:01.7506267-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 30.453ms
+2020-02-04T15:51:01.7506770-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:51:01.7510294-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 32.7213ms 200 application/json; charset=utf-8
+2020-02-04T15:51:14.8932942-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:51:14.8956306-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:51:14.8992125-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:51:27.9331856-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:51:28.8477177-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:51:29.3247918-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:51:29.3250613-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:51:29.3254241-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:51:29.3254497-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:51:29.3254661-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:51:36.8763424-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:51:36.9156071-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:51:36.9885254-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:51:37.0193705-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:51:39.1450208-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:51:39.1502408-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:51:39.1679518-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 2142.852ms
+2020-02-04T15:51:39.1694619-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:51:39.1739360-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2299.587ms 400 application/json; charset=utf-8
+2020-02-04T15:52:42.0813425-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:52:43.0742328-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:52:43.4655530-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:52:43.4659067-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:52:43.4660999-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:52:43.4661319-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:52:43.4661497-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:52:46.0511130-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:46.2407825-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 195.7004ms 200 text/html;charset=utf-8
+2020-02-04T15:52:46.3686787-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:46.3933829-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:46.4088923-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:46.4091208-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 40.4813ms 200 image/png
+2020-02-04T15:52:46.4757875-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 82.4182ms 200 application/json;charset=utf-8
+2020-02-04T15:52:47.0456511-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:47.0499467-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.4426ms 200 text/html;charset=utf-8
+2020-02-04T15:52:47.1303466-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:47.1388014-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:47.1398985-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:47.1402539-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.4283ms 200 image/png
+2020-02-04T15:52:47.1402522-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9.9012ms 200 application/json;charset=utf-8
+2020-02-04T15:52:47.2905615-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:47.2910987-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.5923ms 200 text/html;charset=utf-8
+2020-02-04T15:52:47.3520899-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:47.3539285-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.8253ms 200 application/json;charset=utf-8
+2020-02-04T15:52:47.3561472-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:47.3604478-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:47.3605359-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.4563ms 200 image/png
+2020-02-04T15:52:47.5164222-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:47.5170339-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.6506ms 200 text/html;charset=utf-8
+2020-02-04T15:52:47.5872687-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:47.5900960-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:47.5926193-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:47.5930659-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.4591ms 200 image/png
+2020-02-04T15:52:47.5970583-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9.6748ms 200 application/json;charset=utf-8
+2020-02-04T15:52:47.7012875-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:47.7025278-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.3169ms 200 text/html;charset=utf-8
+2020-02-04T15:52:47.7590938-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:47.7630122-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:47.7646198-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:47.7647213-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.9069ms 200 image/png
+2020-02-04T15:52:47.7647229-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5.6772ms 200 application/json;charset=utf-8
+2020-02-04T15:52:47.8988400-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:47.8992278-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.3892ms 200 text/html;charset=utf-8
+2020-02-04T15:52:47.9563114-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:47.9578856-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:47.9587145-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:47.9589423-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.0893ms 200 image/png
+2020-02-04T15:52:47.9592075-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.9837ms 200 application/json;charset=utf-8
+2020-02-04T15:52:48.1075609-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:48.1086617-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.1411ms 200 text/html;charset=utf-8
+2020-02-04T15:52:48.1749474-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:48.1803103-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:48.1807999-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:48.1808273-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5.9347ms 200 application/json;charset=utf-8
+2020-02-04T15:52:48.1808329-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.6135ms 200 image/png
+2020-02-04T15:52:48.2990740-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:48.2999261-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.8197ms 200 text/html;charset=utf-8
+2020-02-04T15:52:48.3654235-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:48.3663283-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.9111ms 200 application/json;charset=utf-8
+2020-02-04T15:52:48.3698236-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:48.3706890-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:48.3708035-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.0162ms 200 image/png
+2020-02-04T15:52:48.4905935-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:48.4908967-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.3332ms 200 text/html;charset=utf-8
+2020-02-04T15:52:48.5424717-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:48.5436744-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.2047ms 200 application/json;charset=utf-8
+2020-02-04T15:52:48.5443950-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:48.5446480-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:48.5447231-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.3058ms 200 image/png
+2020-02-04T15:52:48.6822219-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:48.6825178-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.3194ms 200 text/html;charset=utf-8
+2020-02-04T15:52:48.7401351-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:48.7426136-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:48.7426722-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.5184ms 200 application/json;charset=utf-8
+2020-02-04T15:52:48.7434154-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:48.7434841-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.8813ms 200 image/png
+2020-02-04T15:52:48.8447850-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:48.8453554-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.6243ms 200 text/html;charset=utf-8
+2020-02-04T15:52:48.8957575-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:48.8967164-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.9636ms 200 application/json;charset=utf-8
+2020-02-04T15:52:48.8978226-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:48.8979737-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:48.8980121-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.2025ms 200 image/png
+2020-02-04T15:52:49.0353624-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:52:49.0356787-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.3226ms 200 text/html;charset=utf-8
+2020-02-04T15:52:49.0984482-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:52:49.1013768-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.8624ms 200 application/json;charset=utf-8
+2020-02-04T15:52:49.1025158-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:52:49.1040842-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:52:49.1043951-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.1767ms 200 image/png
+2020-02-04T15:53:30.0303113-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:53:30.9293988-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:53:31.2887163-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:53:31.2889238-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:53:31.2891838-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:53:31.2892114-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:53:31.2892362-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:53:39.7219950-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-04T15:53:39.7605492-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:53:39.8269248-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:53:39.8577887-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:53:42.0711523-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "string" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:53:42.0766947-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-04T15:53:42.0902315-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 2227.1922ms
+2020-02-04T15:53:42.0915882-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:53:42.0952302-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2375.3573ms 400 application/json; charset=utf-8
+2020-02-04T15:53:55.9695775-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 34
+2020-02-04T15:53:55.9704591-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-04T15:53:55.9716129-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:53:55.9722832-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"Autentificar\", controller = \"Usuarios\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Autentificar(WebApi.Models.AutentificacionModelo)" on controller "WebApi.Controllers.UsuariosController" ("AsesoresAPI").
+2020-02-04T15:53:59.1229264-06:00 [INF] [WebApi.Controllers.UsuariosController] : Usuario: "mio" intentando loguearse desde : "127.0.0.1" .
+2020-02-04T15:53:59.1233418-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"WebApi.Entities.Usuario"'.
+2020-02-04T15:53:59.1280642-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)" in 3155.6574ms
+2020-02-04T15:53:59.1281173-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"WebApi.Controllers.UsuariosController.Autentificar (AsesoresAPI)"'
+2020-02-04T15:53:59.1283712-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3158.9042ms 200 application/json; charset=utf-8
+2020-02-04T15:56:44.7594065-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:56:45.9392382-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:56:46.5049477-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:56:46.5051647-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:56:46.5054424-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:56:46.5054758-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:56:46.5055134-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:57:25.6930601-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:57:25.8770782-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 186.7824ms 200 text/html;charset=utf-8
+2020-02-04T15:57:26.0054674-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:57:26.0148609-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:57:26.0354673-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:57:26.0357179-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 30.2577ms 200 image/png
+2020-02-04T15:57:26.0845730-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-04T15:57:26.3098409-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 296.6338ms 500 text/plain
+2020-02-04T15:57:45.3961463-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:57:46.4600324-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:57:46.9229722-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:57:46.9231385-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:57:46.9237154-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:57:46.9237779-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:57:46.9238127-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:57:46.9748336-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:57:47.1504072-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 178.4566ms 200 text/html;charset=utf-8
+2020-02-04T15:57:47.2645923-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:57:47.2687982-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:57:47.2885741-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:57:47.2887435-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 24.1581ms 200 image/png
+2020-02-04T15:57:47.3604117-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 91.5668ms 200 application/json;charset=utf-8
+2020-02-04T15:57:48.1965780-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:57:48.2000804-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.3966ms 200 text/html;charset=utf-8
+2020-02-04T15:57:48.2677663-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:57:48.2712849-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:57:48.2720245-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:57:48.2721357-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.9853ms 200 image/png
+2020-02-04T15:57:48.2723072-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.7138ms 200 application/json;charset=utf-8
+2020-02-04T15:59:06.2290816-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:59:07.3115208-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:59:07.7067410-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:59:07.7068115-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:59:07.7073554-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:59:07.7074058-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:59:07.7074375-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:59:07.8948427-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:59:08.0651913-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 172.477ms 200 text/html;charset=utf-8
+2020-02-04T15:59:08.1861143-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:59:08.1923361-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:59:08.2138336-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:59:08.2140384-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 27.9373ms 200 image/png
+2020-02-04T15:59:08.2835637-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 91.2301ms 200 application/json;charset=utf-8
+2020-02-04T15:59:10.3158070-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:59:10.3182170-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.5122ms 200 text/html;charset=utf-8
+2020-02-04T15:59:10.4004496-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:59:10.4092956-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:59:10.4130761-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:59:10.4189149-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 7.8963ms 200 image/png
+2020-02-04T15:59:10.4191881-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 18.9161ms 200 application/json;charset=utf-8
+2020-02-04T15:59:33.8515599-06:00 [INF] [] : Iniciado API...
+2020-02-04T15:59:34.7012855-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T15:59:35.1058365-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T15:59:35.1059072-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T15:59:35.1064717-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T15:59:35.1065020-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T15:59:35.1065182-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T15:59:35.8483212-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:59:36.0163289-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 170.2693ms 200 text/html;charset=utf-8
+2020-02-04T15:59:36.1334872-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:59:36.1417128-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:59:36.1538248-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:59:36.1540190-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 20.8993ms 200 image/png
+2020-02-04T15:59:36.2335152-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 95.7443ms 200 application/json;charset=utf-8
+2020-02-04T15:59:37.3401833-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T15:59:37.3434726-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.377ms 200 text/html;charset=utf-8
+2020-02-04T15:59:37.4010094-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T15:59:37.4053238-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T15:59:37.4084450-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T15:59:37.4121666-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 7.4128ms 200 image/png
+2020-02-04T15:59:37.4136205-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 12.778ms 200 application/json;charset=utf-8
+2020-02-04T16:01:18.0477529-06:00 [INF] [] : Iniciado API...
+2020-02-04T16:01:18.9087273-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T16:01:19.3477830-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T16:01:19.3480011-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T16:01:19.3483073-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T16:01:19.3483278-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T16:01:19.3483424-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T16:01:22.2830805-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:01:22.4517180-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 170.8824ms 200 text/html;charset=utf-8
+2020-02-04T16:01:22.5603413-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:01:22.5647794-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:01:22.5862535-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:01:22.5865351-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 26.1769ms 200 image/png
+2020-02-04T16:01:22.6528349-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 88.0286ms 200 application/json;charset=utf-8
+2020-02-04T16:02:09.7385977-06:00 [INF] [] : Iniciado API...
+2020-02-04T16:02:10.6568724-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T16:02:11.0183314-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T16:02:11.0183788-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T16:02:11.0188278-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T16:02:11.0188504-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T16:02:11.0188652-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T16:02:11.1459075-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:02:11.3146445-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 170.5211ms 200 text/html;charset=utf-8
+2020-02-04T16:02:11.4225565-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:02:11.4356815-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:02:11.4462791-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:02:11.4465786-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 23.9631ms 200 image/png
+2020-02-04T16:02:11.5239084-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 88.2822ms 200 application/json;charset=utf-8
+2020-02-04T16:02:42.9752057-06:00 [INF] [] : Iniciado API...
+2020-02-04T16:02:43.8464124-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T16:02:44.2140306-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T16:02:44.2141501-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T16:02:44.2143397-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T16:02:44.2143606-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T16:02:44.2143765-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T16:02:44.3565379-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:02:44.5166689-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 162.2762ms 200 text/html;charset=utf-8
+2020-02-04T16:02:44.9996447-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:02:45.0208507-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:02:45.0511547-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:02:45.0515538-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 30.6097ms 200 image/png
+2020-02-04T16:02:45.1050410-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 105.4773ms 200 application/json;charset=utf-8
+2020-02-04T16:09:29.9156029-06:00 [INF] [] : Iniciado API...
+2020-02-04T16:09:31.0112896-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T16:09:31.4198072-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T16:09:31.4198872-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T16:09:31.4204073-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T16:09:31.4204422-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T16:09:31.4204646-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T16:09:34.1014636-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:09:34.2819572-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 183.2955ms 200 text/html;charset=utf-8
+2020-02-04T16:09:34.3738539-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:09:34.3788303-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:09:34.5001069-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:09:34.5002908-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 126.4312ms 200 image/png
+2020-02-04T16:09:34.5576852-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 178.8869ms 200 application/json;charset=utf-8
+2020-02-04T16:09:35.1725751-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:09:35.1775597-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5.3058ms 200 text/html;charset=utf-8
+2020-02-04T16:09:35.2417625-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:09:35.2461917-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:09:35.2475767-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:09:35.2478551-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.2197ms 200 image/png
+2020-02-04T16:09:35.2481663-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6.6584ms 200 application/json;charset=utf-8
+2020-02-04T16:10:32.1778668-06:00 [INF] [] : Iniciado API...
+2020-02-04T16:10:33.2841388-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T16:10:33.7504255-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T16:10:33.7505004-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T16:10:33.7507499-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T16:10:33.7507813-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T16:10:33.7508111-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T16:10:34.2059165-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:10:34.3954183-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 194.8381ms 200 text/html;charset=utf-8
+2020-02-04T16:10:34.5749298-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:10:34.6077445-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:10:34.6327798-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:10:34.6331386-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 25.3092ms 200 image/png
+2020-02-04T16:10:34.6964206-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 121.536ms 200 application/json;charset=utf-8
+2020-02-04T16:10:46.6921357-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/grupos  
+2020-02-04T16:10:46.7934039-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetGrupos (AsesoresAPI)"'
+2020-02-04T16:10:46.8257210-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetGrupos\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetGrupos(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-04T16:10:46.8324713-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetGrupos (AsesoresAPI)" in 2.7713ms
+2020-02-04T16:10:46.8334975-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetGrupos (AsesoresAPI)"'
+2020-02-04T16:10:46.8374026-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-04T16:10:46.9744971-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 282.9404ms 500 text/plain
+2020-02-04T16:11:56.8212883-06:00 [INF] [] : Iniciado API...
+2020-02-04T16:11:57.7686272-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T16:11:58.1506259-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T16:11:58.1506953-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T16:11:58.1510920-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T16:11:58.1511288-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T16:11:58.1511475-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T16:12:00.8477950-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:12:01.0191871-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 174.4685ms 200 text/html;charset=utf-8
+2020-02-04T16:12:01.1254297-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:12:01.1306956-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:12:01.1528685-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:12:01.1531417-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 27.6858ms 200 image/png
+2020-02-04T16:12:01.2426835-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 112.0062ms 200 application/json;charset=utf-8
+2020-02-04T16:12:02.0032876-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:12:02.0056727-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.1296ms 200 text/html;charset=utf-8
+2020-02-04T16:12:02.0886732-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:12:02.0941749-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:12:02.0968965-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:12:02.0974152-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 8.8996ms 200 application/json;charset=utf-8
+2020-02-04T16:12:02.0974054-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.2194ms 200 image/png
+2020-02-04T16:12:21.4940381-06:00 [INF] [] : Iniciado API...
+2020-02-04T16:12:22.4069148-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T16:12:22.8384049-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T16:12:22.8384682-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T16:12:22.8386822-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T16:12:22.8386993-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T16:12:22.8387126-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T16:12:24.9239654-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:12:25.1015207-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 179.8126ms 200 text/html;charset=utf-8
+2020-02-04T16:12:25.4169909-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:12:25.4237980-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:12:25.4423952-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:12:25.4425863-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 25.8091ms 200 image/png
+2020-02-04T16:12:25.5160791-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 92.4366ms 200 application/json;charset=utf-8
+2020-02-04T16:12:25.9420607-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:12:25.9433322-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.3758ms 200 text/html;charset=utf-8
+2020-02-04T16:12:26.0131134-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:12:26.0156456-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.5403ms 200 application/json;charset=utf-8
+2020-02-04T16:12:26.0172183-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:12:26.0190667-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:12:26.0192087-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.066ms 200 image/png
+2020-02-04T16:12:41.9387768-06:00 [INF] [] : Iniciado API...
+2020-02-04T16:12:42.9035617-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T16:12:43.3389858-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T16:12:43.3390293-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T16:12:43.3394689-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T16:12:43.3394933-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T16:12:43.3395091-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T16:12:44.2254181-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:12:44.3967117-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 173.4671ms 200 text/html;charset=utf-8
+2020-02-04T16:12:44.4799120-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:12:44.5252812-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:12:44.5386453-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:12:44.5388880-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 58.9763ms 200 image/png
+2020-02-04T16:12:44.6078594-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 82.5927ms 200 application/json;charset=utf-8
+2020-02-04T16:50:43.2980444-06:00 [INF] [] : Iniciado API...
+2020-02-04T16:50:44.6175694-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-04T16:50:45.2179330-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-04T16:50:45.2179975-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-04T16:50:45.2181726-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-04T16:50:45.2181896-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-04T16:50:45.2182040-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-04T16:50:53.8714250-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-04T16:50:54.1021458-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 234.0817ms 200 text/html;charset=utf-8
+2020-02-04T16:50:54.3216581-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-04T16:50:54.3478758-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-04T16:50:54.3764567-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-04T16:50:54.3766534-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 55.0149ms 200 image/png
+2020-02-04T16:50:54.4420102-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 94.1544ms 200 application/json;charset=utf-8

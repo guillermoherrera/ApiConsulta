@@ -1,0 +1,15 @@
+2020-02-28T08:43:00.7214605-06:00 [INF] [] : Iniciado API...
+2020-02-28T08:43:05.1098009-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-28T08:43:07.4278665-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-28T08:43:07.4280384-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-28T08:43:07.4282812-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-28T08:43:07.4283193-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-28T08:43:07.4283606-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\gitlab\asesoresapi"
+2020-02-28T14:47:56.3367071-06:00 [INF] [] : Iniciado API...
+2020-02-28T14:47:58.2110175-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-28T14:47:59.1216788-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-28T14:47:59.1218526-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-28T14:47:59.1220687-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-28T14:47:59.1220928-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-28T14:47:59.1221237-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\gitlab\asesoresapi"
+2020-02-28T17:07:28.8305214-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application is shutting down...

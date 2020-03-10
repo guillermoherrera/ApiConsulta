@@ -1,0 +1,453 @@
+2020-02-13T13:45:32.0663259-06:00 [INF] [] : Iniciado API...
+2020-02-13T13:45:34.1505604-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T13:45:34.7262911-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T13:45:34.8301737-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T13:46:06.5152670-06:00 [INF] [] : Iniciado API...
+2020-02-13T13:46:07.3912942-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T13:46:35.6265655-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T13:46:35.6521644-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T13:47:50.0094592-06:00 [INF] [] : Iniciado API...
+2020-02-13T13:47:51.0065645-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T13:47:56.4008939-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T13:47:56.4254951-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T13:48:04.6864722-06:00 [INF] [] : Iniciado API...
+2020-02-13T13:48:05.6566436-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T13:48:06.3516601-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T13:48:06.3517155-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T13:48:06.3520945-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T13:48:06.3521350-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T13:48:06.3521599-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T14:24:29.7221198-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:24:30.5803973-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:24:31.0044727-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T14:24:31.0045323-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T14:24:31.0050103-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T14:24:31.0050405-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T14:24:31.0050581-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T14:24:52.9011958-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:24:54.0307792-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:24:54.4572963-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T14:24:54.4574387-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T14:24:54.4576195-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T14:24:54.4576464-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T14:24:54.4576631-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T14:25:37.3979022-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:25:38.3708872-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:25:38.5718662-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T14:25:38.5944966-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T14:30:50.6247467-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:30:51.5507435-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:30:51.7682410-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T14:30:51.7915893-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T14:31:16.9204718-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:31:17.6608961-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:31:17.8781719-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T14:31:17.8986353-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T14:33:01.1303441-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:33:02.0342251-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:33:02.4374515-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T14:33:02.4375126-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T14:33:02.4377393-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T14:33:02.4377671-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T14:33:02.4378012-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T14:33:15.8232337-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:33:16.6784476-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:33:17.1468793-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T14:33:17.1469270-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T14:33:17.1473681-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T14:33:17.1473972-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T14:33:17.1474120-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T14:33:51.1634915-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-13T14:33:57.9912108-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T14:33:57.9919229-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T14:33:57.9968005-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGOG4JN3GL"", Request id ""0HLTGOG4JN3GL:00000001"": An unhandled exception was thrown by the application.
+2020-02-13T14:33:57.9987649-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6837.8776ms 401 
+2020-02-13T14:34:33.4862054-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T14:34:34.0802887-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 594.2664ms 200 text/html;charset=utf-8
+2020-02-13T14:34:34.1212445-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui-bundle.js  
+2020-02-13T14:34:34.1217017-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui-standalone-preset.js  
+2020-02-13T14:34:34.1522368-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui.css  
+2020-02-13T14:34:34.2201873-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2020-02-13T14:34:34.2221845-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2020-02-13T14:34:34.2251836-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 72.7605ms 200 text/css
+2020-02-13T14:34:34.2252351-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 103.2943ms 200 application/javascript
+2020-02-13T14:34:34.2388335-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2020-02-13T14:34:34.2390268-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 117.9138ms 200 application/javascript
+2020-02-13T14:34:34.4540816-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T14:34:34.5705866-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 116.6762ms 200 application/json;charset=utf-8
+2020-02-13T14:35:31.3593774-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 POST http://127.0.0.1:4000/usuarios/login application/json 40
+2020-02-13T14:35:31.3634833-06:00 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] : CORS policy execution successful.
+2020-02-13T14:35:52.1807429-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T14:35:52.1808199-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T14:35:52.1812356-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGOG4JN3GN"", Request id ""0HLTGOG4JN3GN:00000003"": An unhandled exception was thrown by the application.
+2020-02-13T14:35:52.1813519-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 20822.2126ms 401 
+2020-02-13T14:36:04.4584913-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1/1  
+2020-02-13T14:40:28.0152841-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:40:28.9156269-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:40:29.2035735-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T14:40:29.2313333-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T14:42:55.4125737-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:42:56.5228485-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:42:56.7348608-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T14:42:56.7653047-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T14:43:27.2250158-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:43:28.8544607-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:43:29.3198902-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T14:43:29.3566058-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T14:45:50.5652316-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:45:51.5124171-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:45:51.8208114-06:00 [FTL] [Microsoft.AspNetCore.Hosting.Diagnostics] : Application startup exception
+2020-02-13T14:45:51.8568076-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-13T14:46:04.2601585-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:46:05.2406161-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:46:05.8699235-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T14:46:05.8699733-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T14:46:05.8701232-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T14:46:05.8701420-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T14:46:05.8701585-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T14:46:33.8290082-06:00 [INF] [] : Iniciado API...
+2020-02-13T14:46:35.0066134-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T14:46:35.5060813-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T14:46:35.5061593-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T14:46:35.5064685-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T14:46:35.5065159-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T14:46:35.5065569-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T14:46:39.6795727-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application is shutting down...
+2020-02-13T15:00:45.6702904-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:00:46.7274541-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T15:00:47.1457634-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T15:00:47.1458122-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T15:00:47.1463114-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T15:00:47.1463409-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T15:00:47.1463623-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T15:07:53.1882067-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:07:54.3662409-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T15:07:54.8161518-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T15:07:54.8162262-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T15:07:54.8163975-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T15:07:54.8164164-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T15:07:54.8164305-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T15:08:44.4416764-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1/1  
+2020-02-13T15:08:49.8900274-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T15:08:50.0647382-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5625.5928ms 500 text/plain
+2020-02-13T15:08:56.6250001-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1/1  
+2020-02-13T15:09:06.5759587-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T15:09:06.5774353-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9952.53ms 500 text/plain
+2020-02-13T15:45:15.8145324-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:45:16.7177894-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T15:45:17.2141321-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T15:45:17.2141870-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T15:45:17.2143589-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T15:45:17.2143850-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T15:45:17.2144006-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T15:45:19.5357232-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-13T15:45:26.6875559-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T15:45:27.6274350-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 8094.2689ms 500 text/plain
+2020-02-13T15:45:47.7670724-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:45:48.7250277-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T15:45:49.3095352-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T15:45:49.3096137-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T15:45:49.3097865-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T15:45:49.3098110-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T15:45:49.3098430-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T15:45:58.9375146-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-13T15:46:16.3848798-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T15:46:16.3851957-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T15:46:16.3900811-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGPOECJDL9"", Request id ""0HLTGPOECJDL9:00000001"": An unhandled exception was thrown by the application.
+2020-02-13T15:46:16.3914374-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 17459.29ms 401 
+2020-02-13T15:46:19.3895239-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-13T15:47:10.9075184-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T15:47:10.9076897-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T15:47:10.9083914-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGPOECJDLA"", Request id ""0HLTGPOECJDLA:00000001"": An unhandled exception was thrown by the application.
+2020-02-13T15:47:10.9086180-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 51519.4004ms 401 
+2020-02-13T15:48:10.5010950-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:48:11.3605197-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T15:48:11.8517602-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T15:48:11.8518238-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T15:48:11.8520074-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T15:48:11.8520442-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T15:48:11.8520613-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T15:48:12.2005206-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-13T15:48:21.5259384-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9326.8827ms 404 
+2020-02-13T15:48:34.5855469-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-13T15:49:06.1414531-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 31555.9321ms 404 
+2020-02-13T15:54:04.9677282-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:54:12.1776246-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:54:12.9376815-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T15:54:13.3368272-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T15:54:13.3371110-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T15:54:13.3377022-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T15:54:13.3377712-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T15:54:13.3378115-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T15:54:14.7665096-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T15:54:15.0121105-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 247.8555ms 200 text/html;charset=utf-8
+2020-02-13T15:54:15.0392510-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui.css  
+2020-02-13T15:54:15.0939086-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2020-02-13T15:54:15.0961769-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 56.9204ms 200 text/css
+2020-02-13T15:54:15.2822569-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T15:54:15.2987625-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T15:54:15.3303301-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T15:54:15.3304432-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 31.9251ms 200 image/png
+2020-02-13T15:54:15.4554952-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 173.2655ms 200 application/json;charset=utf-8
+2020-02-13T15:56:22.4829587-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:56:23.3841792-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T15:56:23.7560476-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T15:56:23.7561304-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T15:56:23.7564271-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T15:56:23.7564543-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T15:56:23.7564802-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T15:56:38.0959020-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T15:56:38.2649563-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 171.39ms 200 text/html;charset=utf-8
+2020-02-13T15:56:38.5043775-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T15:56:38.5118468-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T15:56:38.5321314-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T15:56:38.5324461-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 28.304ms 200 image/png
+2020-02-13T15:56:38.6077088-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 95.8186ms 200 application/json;charset=utf-8
+2020-02-13T15:57:12.2648288-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:57:13.0986410-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T15:57:13.4724572-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T15:57:13.4726321-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T15:57:13.4728388-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T15:57:13.4728793-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T15:57:13.4729079-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T15:57:14.3298561-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T15:57:14.4998300-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 172.5474ms 200 text/html;charset=utf-8
+2020-02-13T15:57:14.6398478-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T15:57:14.6482171-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T15:57:14.6607382-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T15:57:14.6609057-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 21.0543ms 200 image/png
+2020-02-13T15:57:14.7446240-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 96.4531ms 200 application/json;charset=utf-8
+2020-02-13T15:58:37.9858665-06:00 [INF] [] : Iniciado API...
+2020-02-13T15:58:38.9012364-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T15:58:39.2979204-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T15:58:39.2979749-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T15:58:39.2984587-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T15:58:39.2984843-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T15:58:39.2985383-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T15:58:47.6672054-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/q  
+2020-02-13T15:58:48.1471466-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T15:58:48.1473019-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T15:58:48.1513135-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGPVJFT64V"", Request id ""0HLTGPVJFT64V:00000001"": An unhandled exception was thrown by the application.
+2020-02-13T15:58:48.1524780-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 487.5529ms 401 
+2020-02-13T16:00:59.9162156-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:01:00.8425350-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:01:01.2425183-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:01:01.2426149-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:01:01.2430948-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:01:01.2431227-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:01:01.2431391-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:01:01.7942454-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:01:01.9569719-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 166.5706ms 200 text/html;charset=utf-8
+2020-02-13T16:01:02.0660801-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:01:02.0687455-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:01:02.0965924-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:01:02.0968643-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 30.814ms 200 image/png
+2020-02-13T16:01:02.1956338-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 126.9442ms 200 application/json;charset=utf-8
+2020-02-13T16:01:34.8462796-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:01:35.6887626-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:01:36.1504689-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:01:36.1505418-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:01:36.1507429-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:01:36.1507777-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:01:36.1507947-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:01:36.9095954-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:01:37.0767455-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 169.5488ms 200 text/html;charset=utf-8
+2020-02-13T16:01:37.1758346-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:01:37.2029330-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:01:37.2269812-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:01:37.2272639-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 51.3991ms 200 image/png
+2020-02-13T16:01:37.3099996-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 107.091ms 200 application/json;charset=utf-8
+2020-02-13T16:01:37.9016163-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:01:37.9054991-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.2855ms 200 text/html;charset=utf-8
+2020-02-13T16:01:37.9646914-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:01:37.9737745-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:01:37.9740130-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9.4036ms 200 application/json;charset=utf-8
+2020-02-13T16:01:37.9747655-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:01:37.9749652-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.3789ms 200 image/png
+2020-02-13T16:01:55.2575752-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:01:56.1420434-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:01:56.5990749-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:01:56.5991513-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:01:56.5993647-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:01:56.5993854-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:01:56.5994112-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:01:59.5758374-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-13T16:02:00.0145243-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T16:02:00.0146420-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T16:02:00.0183341-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGQ1CM0I27"", Request id ""0HLTGQ1CM0I27:00000001"": An unhandled exception was thrown by the application.
+2020-02-13T16:02:00.0195347-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 446.1032ms 401 
+2020-02-13T16:02:54.0837301-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:02:54.9286689-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:02:55.3337232-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:02:55.3341932-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:02:55.3344884-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:02:55.3345229-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:02:55.3345480-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:02:58.3924557-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-13T16:02:58.8719601-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T16:02:58.8720574-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T16:02:58.8750822-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGQ1U6ULLJ"", Request id ""0HLTGQ1U6ULLJ:00000001"": An unhandled exception was thrown by the application.
+2020-02-13T16:02:58.8764893-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 486.537ms 401 
+2020-02-13T16:03:04.6177367-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-13T16:03:04.7315931-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T16:03:04.7317320-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T16:03:04.7322656-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGQ1U6ULLK"", Request id ""0HLTGQ1U6ULLK:00000001"": An unhandled exception was thrown by the application.
+2020-02-13T16:03:04.7325464-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 115.022ms 401 
+2020-02-13T16:32:34.2709232-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:32:36.1724176-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:32:37.1174082-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:32:37.1176943-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:32:37.1180993-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:32:37.1181251-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:32:37.1181434-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:32:43.2205254-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:32:43.6226154-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 406.1582ms 200 text/html;charset=utf-8
+2020-02-13T16:32:43.8301577-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:32:43.8530768-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:32:43.8826002-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:32:43.8829791-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 52.808ms 200 image/png
+2020-02-13T16:32:43.9724709-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 119.3788ms 200 application/json;charset=utf-8
+2020-02-13T16:33:06.0816893-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:33:07.0461996-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:33:07.4499798-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:33:07.4500797-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:33:07.4503600-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:33:07.4503924-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:33:07.4504231-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:33:10.2294953-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:33:10.3964427-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 169.273ms 200 text/html;charset=utf-8
+2020-02-13T16:33:10.6406661-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:33:10.6461400-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:33:10.6675849-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:33:10.6678042-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 27.6912ms 200 image/png
+2020-02-13T16:33:10.7448543-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 98.7496ms 200 application/json;charset=utf-8
+2020-02-13T16:35:10.6908228-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:35:11.5246812-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:35:12.0413331-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:35:12.0414348-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:35:12.0418012-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:35:12.0418353-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:35:12.0418663-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:35:12.2230549-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:35:12.3942378-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 174.2778ms 200 text/html;charset=utf-8
+2020-02-13T16:35:12.5123946-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:35:12.5180988-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:35:12.5397654-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:35:12.5399756-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 27.6112ms 200 image/png
+2020-02-13T16:35:12.6187419-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 100.6614ms 200 application/json;charset=utf-8
+2020-02-13T16:35:12.6253907-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:35:12.6257608-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.3944ms 200 text/html;charset=utf-8
+2020-02-13T16:35:12.7412215-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:35:12.7491230-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:35:12.7546084-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:35:12.7547679-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5.9255ms 200 image/png
+2020-02-13T16:35:12.7554560-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 14.2939ms 200 application/json;charset=utf-8
+2020-02-13T16:35:56.6110518-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:35:57.4690429-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:35:57.9196321-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:35:57.9196841-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:35:57.9201817-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:35:57.9202066-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:35:57.9202243-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:36:00.5181397-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:36:00.6829584-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 166.9186ms 200 text/html;charset=utf-8
+2020-02-13T16:36:00.8034101-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:36:00.8093572-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:36:00.8384728-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:36:00.8386417-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 35.2437ms 200 image/png
+2020-02-13T16:36:00.9248482-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 115.274ms 200 application/json;charset=utf-8
+2020-02-13T16:36:13.6410034-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:36:14.7942108-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:36:15.2484639-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:36:15.2486301-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:36:15.2488257-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:36:15.2488446-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:36:15.2488573-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:36:16.4505867-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:36:16.6208477-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 174.8516ms 200 text/html;charset=utf-8
+2020-02-13T16:36:16.7357731-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:36:16.7372001-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:36:16.7664326-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:36:16.7666192-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 30.8414ms 200 image/png
+2020-02-13T16:36:16.8622439-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T16:36:17.1060045-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 368.8225ms 500 text/plain
+2020-02-13T16:36:19.4003065-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:36:19.4031381-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.0404ms 200 text/html;charset=utf-8
+2020-02-13T16:36:19.4756712-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:36:19.4840852-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T16:36:19.4840649-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:36:19.4855038-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:36:19.4855793-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 10.0175ms 500 text/plain
+2020-02-13T16:36:19.4855846-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.0226ms 200 image/png
+2020-02-13T16:36:37.8549778-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:36:38.7229969-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:36:39.1874449-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:36:39.1875089-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:36:39.1878166-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:36:39.1878508-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:36:39.1878713-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:36:39.6898614-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-13T16:36:39.8693295-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 181.701ms 200 text/html;charset=utf-8
+2020-02-13T16:36:39.9759511-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-13T16:36:39.9811522-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-13T16:36:40.0087723-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-13T16:36:40.0090574-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 33.0896ms 200 image/png
+2020-02-13T16:36:40.0913528-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 110.2261ms 200 application/json;charset=utf-8
+2020-02-13T16:37:02.7196001-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-13T16:37:33.4450386-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T16:37:33.4452176-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T16:37:33.4459263-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGQKOJG0SK"", Request id ""0HLTGQKOJG0SK:00000003"": An unhandled exception was thrown by the application.
+2020-02-13T16:37:33.4461234-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 30726.9744ms 401 
+2020-02-13T16:39:27.9515860-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:39:28.7105522-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:39:29.0860439-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:39:29.0862477-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:39:29.0866476-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:39:29.0866848-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:39:29.0867272-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:39:39.2944914-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-13T16:39:42.0499519-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-13T16:39:42.0501016-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-02-13T16:39:42.0550111-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLTGQME4CARK"", Request id ""0HLTGQME4CARK:00000001"": An unhandled exception was thrown by the application.
+2020-02-13T16:39:42.0562841-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2764.3187ms 401 
+2020-02-13T16:44:46.3906010-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:44:47.2578974-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:44:47.7804159-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:44:47.7805140-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:44:47.7807664-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:44:47.7807956-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:44:47.7808200-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:45:05.5193431-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-13T16:46:45.4608785-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:46:46.4971273-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:46:47.0337100-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:46:47.0337650-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:46:47.0339316-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:46:47.0339649-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:46:47.0339828-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:46:49.6929631-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-13T16:49:19.1012203-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:49:19.9750416-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:49:20.4232274-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:49:20.4233799-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:49:20.4237030-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:49:20.4237392-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:49:20.4237685-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:49:23.4134778-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-13T16:49:56.4518590-06:00 [INF] [] : Iniciado API...
+2020-02-13T16:49:57.5429570-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T16:49:58.0030806-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T16:49:58.0032124-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T16:49:58.0033686-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T16:49:58.0033871-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T16:49:58.0034013-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-13T16:49:58.1783343-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-13T16:50:14.4265751-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-13T16:50:14.5035951-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(Int32)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-13T17:11:41.1543102-06:00 [INF] [] : Iniciado API...
+2020-02-13T17:11:42.0090621-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-13T17:11:42.4892028-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-13T17:11:42.4893737-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-13T17:11:42.4896636-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-13T17:11:42.4896852-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-13T17:11:42.4897017-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"

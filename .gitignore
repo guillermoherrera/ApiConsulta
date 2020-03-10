@@ -1,0 +1,19 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/Debug/netcoreapp3.1
+/obj/Debug/netcoreapp3.1/staticwebassets
+/.vs/AsesoresWebApp/v16
+/obj/Debug/netcoreapp3.1/AsesoresAPI.AssemblyInfoInputs.cache
+*.cache
+*.CopyComplete
+/obj/Debug/netcoreapp3.1/AsesoresAPI.csproj.FileListAbsolute.txt
+/obj/Debug/netcoreapp3.1/AsesoresAPI.dll
+/obj/Debug/netcoreapp3.1/AsesoresAPI.exe
+/obj/Debug/netcoreapp3.1/AsesoresAPI.MvcApplicationPartsAssemblyInfo.cs
+/obj/Debug/netcoreapp3.1/AsesoresAPI.AssemblyInfo.cs
+/obj/Debug/netcoreapp3.1/AsesoresAPI.pdb
+/obj/AsesoresAPI.csproj.nuget.dgspec.json
+/obj/AsesoresAPI.csproj.nuget.g.props
+/obj/AsesoresAPI.csproj.nuget.g.targets

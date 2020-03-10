@@ -1,0 +1,39 @@
+2020-02-20T10:30:25.2994091-06:00 [INF] [] : Iniciado API...
+2020-02-20T10:30:28.4685061-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-20T10:30:30.0910408-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-20T10:30:30.0912380-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-20T10:30:30.0915416-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-20T10:30:30.0916176-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-20T10:30:30.0916430-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\gitlab\asesoresapi"
+2020-02-20T10:31:11.4766971-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application is shutting down...
+2020-02-20T13:24:08.2339366-06:00 [INF] [] : Iniciado API...
+2020-02-20T13:24:14.1038983-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-20T13:24:17.4310759-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-20T13:24:17.4313373-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-20T13:24:17.4320360-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-20T13:24:17.4320969-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-20T13:24:17.4321365-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\gitlab\asesoresapi"
+2020-02-20T13:25:10.0005325-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-20T13:25:11.2126943-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1230.9341ms 200 text/html;charset=utf-8
+2020-02-20T13:25:11.5084272-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui-bundle.js  
+2020-02-20T13:25:11.5085760-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui-standalone-preset.js  
+2020-02-20T13:25:11.5867960-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui.css  
+2020-02-20T13:25:11.7064311-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2020-02-20T13:25:11.7064311-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2020-02-20T13:25:11.7250532-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 216.4219ms 200 application/javascript
+2020-02-20T13:25:11.7250641-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 138.248ms 200 text/css
+2020-02-20T13:25:11.7521927-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2020-02-20T13:25:11.7524234-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 244.2642ms 200 application/javascript
+2020-02-20T13:25:12.1097086-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-20T13:25:12.1626883-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-20T13:25:12.1649756-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-20T13:25:12.1654319-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.0152ms 200 image/png
+2020-02-20T13:25:12.3214005-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 212.7661ms 200 application/json;charset=utf-8
+2020-02-20T13:26:16.7606442-06:00 [INF] [] : Iniciado API...
+2020-02-20T13:26:17.0735011-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-20T13:26:17.7318894-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-20T13:26:17.7320537-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-20T13:26:17.7323745-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-20T13:26:17.7324364-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-20T13:26:17.7325119-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\gitlab\asesoresapi"
+2020-02-20T17:08:47.2015942-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application is shutting down...

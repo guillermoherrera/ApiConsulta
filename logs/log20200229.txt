@@ -1,0 +1,120 @@
+2020-02-29T08:57:52.8752080-06:00 [INF] [] : Iniciado API...
+2020-02-29T08:57:56.4921035-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-29T08:57:58.2509693-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-29T08:57:58.2511362-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-29T08:57:58.2513835-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-29T08:57:58.2514130-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-29T08:57:58.2514361-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\gitlab\asesoresapi"
+2020-02-29T09:19:21.3986868-06:00 [INF] [] : Iniciado API...
+2020-02-29T09:19:22.5742186-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-29T09:19:23.2486749-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-29T09:19:23.2489919-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-29T09:19:23.2504876-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-29T09:19:23.2506388-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-29T09:19:23.2507891-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\gitlab\asesoresapi"
+2020-02-29T09:21:21.7325504-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-29T09:21:23.0004823-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1274.8642ms 200 text/html;charset=utf-8
+2020-02-29T09:21:27.6066374-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-29T09:21:27.8807115-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 274.6676ms 200 application/json;charset=utf-8
+2020-02-29T09:24:41.0978639-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-29T09:24:46.7023322-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:24:46.8487388-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(Int32)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-29T09:24:46.9014929-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-02-29T09:25:30.9765101-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-29T09:25:31.4464618-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 44487.1807ms
+2020-02-29T09:25:31.4484042-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:25:31.5082390-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 50408.5783ms 200 application/json; charset=utf-8
+2020-02-29T09:29:15.0635615-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:4000/cartera/1  
+2020-02-29T09:29:15.0903955-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 26.7664ms 404 
+2020-02-29T09:29:58.2902656-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/productoId  
+2020-02-29T09:29:58.3551364-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:29:58.3582282-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(Int32)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-29T09:29:58.3596093-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-02-29T09:30:05.0891062-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-29T09:30:05.0905965-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 6732.1575ms
+2020-02-29T09:30:05.0906990-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:30:05.0912512-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6802.4646ms 200 application/json; charset=utf-8
+2020-02-29T09:31:02.8718571-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:4000/cartera/documentoId  
+2020-02-29T09:31:02.8858620-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 14.0936ms 404 
+2020-02-29T09:31:22.2865407-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:4000/cartera/productoId  
+2020-02-29T09:31:22.3007374-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:31:22.3016396-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(Int32)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-29T09:31:22.3044765-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "" IP: "192.168.70.94" Device: ""
+2020-02-29T09:31:41.1687193-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-29T09:31:41.1713376-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 18868.1774ms
+2020-02-29T09:31:41.1994243-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:31:41.2149530-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 18928.0438ms 200 application/json; charset=utf-8
+2020-02-29T09:38:58.3385109-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:4000/cartera/productoId  
+2020-02-29T09:42:11.1782488-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:42:11.1868553-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(Int32)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-29T09:42:11.2034490-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "" IP: "192.168.70.94" Device: ""
+2020-02-29T09:42:13.7631220-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-29T09:42:13.7680721-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2580.7951ms
+2020-02-29T09:42:13.7683206-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:42:13.7690489-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 195635.0901ms 200 application/json; charset=utf-8
+2020-02-29T09:42:49.3503503-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:4000/cartera/productoId  
+2020-02-29T09:42:56.0872678-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6737.0152ms 401 
+2020-02-29T09:50:50.6815251-06:00 [INF] [] : Iniciado API...
+2020-02-29T09:50:51.6118748-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-29T09:50:51.9901191-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-29T09:50:51.9901685-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-29T09:50:51.9903108-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-29T09:50:51.9903261-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-29T09:50:51.9903394-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-02-29T09:50:57.1640272-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:4000/cartera/productoId  
+2020-02-29T09:50:57.7604592-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 599.4966ms 401 
+2020-02-29T09:51:02.2641160-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:4000/cartera/productoId  
+2020-02-29T09:51:02.2889524-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:51:02.3375581-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(Int32)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-29T09:51:02.3558251-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "" IP: "192.168.70.94" Device: ""
+2020-02-29T09:51:02.3763783-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-29T09:51:02.3950508-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 53.3332ms
+2020-02-29T09:51:02.3952034-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:51:02.3955921-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 131.5928ms 200 application/json; charset=utf-8
+2020-02-29T09:54:32.4421805-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:4000/cartera/productoId  
+2020-02-29T09:54:32.4538303-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:54:32.4543068-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(Int32)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-29T09:54:32.4555993-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "" IP: "192.168.70.94" Device: ""
+2020-02-29T09:54:32.4691521-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-29T09:54:32.4701083-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 15.6368ms
+2020-02-29T09:54:32.4702575-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T09:54:32.4706703-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 28.7532ms 200 application/json; charset=utf-8
+2020-02-29T10:17:18.1484292-06:00 [INF] [] : Iniciado API...
+2020-02-29T10:17:20.8807801-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-29T10:17:22.5947763-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-29T10:17:22.5949492-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-29T10:17:22.5951925-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-29T10:17:22.5952149-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-29T10:17:22.5952320-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\AsesoresWebApp"
+2020-02-29T10:17:24.1908249-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-29T10:17:24.4823618-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 296.1486ms 200 text/html;charset=utf-8
+2020-02-29T10:17:24.7369876-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-29T10:17:24.7642986-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-29T10:17:25.2068730-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-29T10:17:25.2076193-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 472.2211ms 200 image/png
+2020-02-29T10:17:25.2945496-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 530.4408ms 200 application/json;charset=utf-8
+2020-02-29T10:24:17.2291704-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/grupalContratosActivos  
+2020-02-29T10:24:19.3449403-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T10:24:19.4084984-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-29T10:24:19.4368545-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-02-29T10:24:19.4471562-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-29T10:24:19.4814641-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 65.5852ms
+2020-02-29T10:24:19.4816179-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T10:24:19.4853926-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2256.6324ms 200 application/json; charset=utf-8
+2020-02-29T10:25:01.4161988-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/grupalContratosActivos  
+2020-02-29T10:25:01.4330051-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T10:25:01.4338418-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-29T10:25:01.4355187-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-02-29T10:25:11.1533108-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-29T10:25:11.1540165-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 9720.0445ms
+2020-02-29T10:25:11.1540598-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T10:25:11.1546129-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9738.325ms 200 application/json; charset=utf-8
+2020-02-29T10:25:27.9933134-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/grupalContratosActivos  
+2020-02-29T10:25:28.0220845-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T10:25:28.0241300-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-29T10:25:28.0294894-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "" IP: "127.0.0.1" Device: ""
+2020-02-29T10:25:33.0610686-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[AsesoresAPI.Entities.Contrato, AsesoresAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-02-29T10:25:33.0618111-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 5037.397ms
+2020-02-29T10:25:33.0618984-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-29T10:25:33.0623299-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5069.0461ms 200 application/json; charset=utf-8
+2020-02-29T14:03:59.2047398-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application is shutting down...

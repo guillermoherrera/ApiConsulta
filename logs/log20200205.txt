@@ -1,0 +1,21 @@
+2020-02-05T08:29:42.9801118-06:00 [INF] [] : Iniciado API...
+2020-02-05T08:29:44.9916622-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-05T08:29:46.0636596-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-05T08:29:46.0637214-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-05T08:29:46.0638693-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-05T08:29:46.0638865-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-05T08:29:46.0639011-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-05T08:30:05.2383029-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-05T08:30:05.4482824-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 216.4436ms 200 text/html;charset=utf-8
+2020-02-05T08:30:05.8024037-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-05T08:30:05.8264801-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-05T08:30:05.8540248-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-05T08:30:05.8542746-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 52.0564ms 200 image/png
+2020-02-05T08:30:05.9274210-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 100.9218ms 200 application/json;charset=utf-8
+2020-02-05T08:30:50.8643541-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-05T08:30:50.8678901-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.7052ms 200 text/html;charset=utf-8
+2020-02-05T08:30:51.4153652-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-05T08:30:51.4156696-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-05T08:30:51.4164278-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-05T08:30:51.4165979-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.0425ms 200 image/png
+2020-02-05T08:30:51.4177601-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.5927ms 200 application/json;charset=utf-8

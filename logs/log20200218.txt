@@ -1,0 +1,20 @@
+2020-02-18T16:21:41.4109611-06:00 [INF] [] : Iniciado API...
+2020-02-18T16:21:43.9415101-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-18T16:21:44.8182968-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-18T16:21:44.8187223-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-18T16:21:44.8190799-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-18T16:21:44.8191166-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-18T16:21:44.8191560-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-18T16:21:53.4265944-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-18T16:21:53.8643113-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 442.1874ms 200 text/html;charset=utf-8
+2020-02-18T16:21:53.8987012-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui-standalone-preset.js  
+2020-02-18T16:21:53.9335911-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/swagger-ui-bundle.js  
+2020-02-18T16:21:54.0106850-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2020-02-18T16:21:54.0140431-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 115.2266ms 200 application/javascript
+2020-02-18T16:21:54.0144984-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2020-02-18T16:21:54.0146215-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 81.0694ms 200 application/javascript
+2020-02-18T16:21:54.2114955-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-18T16:21:54.2413943-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-18T16:21:54.2424718-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-18T16:21:54.2425648-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.1731ms 200 image/png
+2020-02-18T16:21:54.3332480-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 121.7594ms 200 application/json;charset=utf-8

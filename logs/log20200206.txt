@@ -1,0 +1,876 @@
+2020-02-06T08:40:05.6211961-06:00 [INF] [] : Iniciado API...
+2020-02-06T08:40:07.7413384-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T08:40:08.8643044-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T08:40:08.8647412-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T08:40:08.8649009-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T08:40:08.8649196-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T08:40:08.8649485-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T08:40:09.5889525-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T08:40:09.8356435-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 250.557ms 200 text/html;charset=utf-8
+2020-02-06T08:40:10.0725927-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T08:40:10.0821221-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T08:40:10.1135293-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T08:40:10.1137843-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 31.6775ms 200 image/png
+2020-02-06T08:40:10.1740691-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 101.6205ms 200 application/json;charset=utf-8
+2020-02-06T08:51:05.2835692-06:00 [INF] [] : Iniciado API...
+2020-02-06T08:51:06.1485387-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T08:51:06.5740613-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T08:51:06.5742203-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T08:51:06.5744730-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T08:51:06.5745023-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T08:51:06.5745185-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T08:51:07.7398083-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T08:51:07.8995174-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 161.9851ms 200 text/html;charset=utf-8
+2020-02-06T08:51:07.9924748-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T08:51:08.0244305-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T08:51:08.0403358-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T08:51:08.0405557-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 48.1189ms 200 image/png
+2020-02-06T08:51:08.1062662-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 81.8449ms 200 application/json;charset=utf-8
+2020-02-06T08:51:08.9084961-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T08:51:08.9113260-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.4677ms 200 text/html;charset=utf-8
+2020-02-06T08:51:08.9995042-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T08:51:09.0037265-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.1636ms 200 application/json;charset=utf-8
+2020-02-06T08:51:09.0042708-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T08:51:09.0058559-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T08:51:09.0059583-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.813ms 200 image/png
+2020-02-06T08:52:50.3192115-06:00 [INF] [] : Iniciado API...
+2020-02-06T08:52:51.2436645-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T08:52:51.6594695-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T08:52:51.6596053-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T08:52:51.6597956-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T08:52:51.6598138-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T08:52:51.6598275-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T08:52:53.8946858-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T08:52:54.0616809-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 169.1956ms 200 text/html;charset=utf-8
+2020-02-06T08:52:54.1831921-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T08:52:54.1881328-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T08:52:54.2087658-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T08:52:54.2089161-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 25.7402ms 200 image/png
+2020-02-06T08:52:54.2759679-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 87.8415ms 200 application/json;charset=utf-8
+2020-02-06T08:53:13.5486271-06:00 [INF] [] : Iniciado API...
+2020-02-06T08:53:14.4532164-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T08:53:14.8855849-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T08:53:14.8856397-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T08:53:14.8861891-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T08:53:14.8862250-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T08:53:14.8862632-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T08:53:15.2530257-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T08:53:15.4169484-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 166.7632ms 200 text/html;charset=utf-8
+2020-02-06T08:53:15.5959689-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T08:53:15.6049576-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T08:53:15.6453714-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T08:53:15.6455706-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 40.5938ms 200 image/png
+2020-02-06T08:53:15.7021962-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 106.254ms 200 application/json;charset=utf-8
+2020-02-06T08:53:41.0072124-06:00 [INF] [] : Iniciado API...
+2020-02-06T08:53:41.9035811-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T08:53:42.3958845-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T08:53:42.3960294-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T08:53:42.3962220-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T08:53:42.3962400-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T08:53:42.3962548-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T08:53:42.6232016-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T08:53:42.8164975-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 195.4064ms 200 text/html;charset=utf-8
+2020-02-06T08:53:42.9422305-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T08:53:42.9552275-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T08:53:42.9711683-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T08:53:42.9714308-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 29.1799ms 200 image/png
+2020-02-06T08:53:43.0414591-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 86.2747ms 200 application/json;charset=utf-8
+2020-02-06T08:53:43.8390458-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T08:53:43.8425026-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.5343ms 200 text/html;charset=utf-8
+2020-02-06T08:53:43.9085661-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T08:53:43.9137252-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T08:53:43.9158222-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T08:53:43.9160525-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.4707ms 200 image/png
+2020-02-06T08:53:43.9192746-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 10.8714ms 200 application/json;charset=utf-8
+2020-02-06T08:53:45.8015592-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T08:53:45.8035647-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.8969ms 200 text/html;charset=utf-8
+2020-02-06T08:53:45.8656427-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T08:53:45.8693636-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T08:53:45.8700624-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T08:53:45.8700920-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.5393ms 200 application/json;charset=utf-8
+2020-02-06T08:53:45.8701202-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.8943ms 200 image/png
+2020-02-06T08:54:28.4083997-06:00 [INF] [] : Iniciado API...
+2020-02-06T08:54:29.2435322-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T08:54:29.6649668-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T08:54:29.6650199-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T08:54:29.6654333-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T08:54:29.6654731-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T08:54:29.6655087-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T08:54:32.7554941-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T08:54:32.9203322-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 166.9724ms 200 text/html;charset=utf-8
+2020-02-06T08:54:33.0270201-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T08:54:33.0319867-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T08:54:33.0549149-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T08:54:33.0551358-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 28.1536ms 200 image/png
+2020-02-06T08:54:33.1225953-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 90.6356ms 200 application/json;charset=utf-8
+2020-02-06T09:06:44.6869819-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:06:46.4514550-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:06:47.3529968-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:06:47.3533945-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:06:47.3535366-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:06:47.3535532-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:06:47.3535748-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:06:47.4933015-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:06:47.7159110-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 224.3525ms 200 text/html;charset=utf-8
+2020-02-06T09:06:47.8676774-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:06:47.8803062-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:06:47.9147325-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:06:47.9149662-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 34.628ms 200 image/png
+2020-02-06T09:06:47.9769975-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 109.4083ms 200 application/json;charset=utf-8
+2020-02-06T09:06:54.9151377-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:06:55.2343980-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:06:55.2812952-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:06:55.2928931-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 6.9232ms
+2020-02-06T09:06:55.2944138-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:06:55.2979123-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:06:55.4514033-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 537.023ms 500 text/plain
+2020-02-06T09:07:17.1438266-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:07:17.9571109-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:07:18.3716868-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:07:18.3718937-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:07:18.3720815-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:07:18.3721008-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:07:18.3721176-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:07:23.4800729-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:07:23.5944306-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:23.6241462-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:07:23.6310854-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2.8079ms
+2020-02-06T09:07:23.6321613-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:23.6360217-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:07:23.6898629-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 212.5292ms 500 text/plain
+2020-02-06T09:07:26.6858508-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:07:26.6884379-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:26.6889763-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:07:26.7080532-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 18.9099ms
+2020-02-06T09:07:26.7084422-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:26.7095262-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:07:26.7108893-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 25.2344ms 500 text/plain
+2020-02-06T09:07:34.7233195-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:07:34.7284228-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:34.7287934-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:07:34.7295010-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 0.6281ms
+2020-02-06T09:07:34.7297463-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:34.7306045-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:07:34.7315914-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 8.6029ms 500 text/plain
+2020-02-06T09:07:35.6925639-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:07:35.6934427-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:35.6939259-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:07:35.6947813-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 0.6374ms
+2020-02-06T09:07:35.6952150-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:35.6965070-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:07:35.7005268-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 8.0126ms 500 text/plain
+2020-02-06T09:07:56.2383413-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:07:56.2399306-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:56.2402685-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:07:56.2411324-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 0.7928ms
+2020-02-06T09:07:56.2413334-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:07:56.2424500-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:07:56.2434238-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5.2875ms 500 text/plain
+2020-02-06T09:08:41.3372027-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:08:42.1707873-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:08:42.5939936-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:08:42.5941753-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:08:42.5944674-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:08:42.5945028-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:08:42.5945409-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:08:44.8634629-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:08:44.9766635-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:08:45.0093037-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:08:45.0163246-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2.6109ms
+2020-02-06T09:08:45.0173070-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:08:45.0199009-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:08:45.0779662-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 217.3323ms 500 text/plain
+2020-02-06T09:09:15.1292246-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:09:15.8940161-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:09:16.2914437-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:09:16.2915015-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:09:16.2917083-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:09:16.2917283-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:09:16.2917436-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:09:18.9659160-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:09:19.0871463-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:19.1272733-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:09:19.1339892-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2.3031ms
+2020-02-06T09:09:19.1359274-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:19.1388591-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:09:19.1998720-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 236.9094ms 500 text/plain
+2020-02-06T09:09:20.0999929-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:09:20.1070304-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:20.1157015-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:09:20.1172395-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 1.3303ms
+2020-02-06T09:09:20.1177964-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:20.1187920-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:09:20.1199876-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 20.107ms 500 text/plain
+2020-02-06T09:09:20.8620522-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:09:20.8659371-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:20.8664700-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:09:20.8672450-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 0.6935ms
+2020-02-06T09:09:20.8675230-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:20.8686705-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:09:20.8697603-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 8.0501ms 500 text/plain
+2020-02-06T09:09:21.7375323-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:09:21.7390022-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:21.7394747-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:09:21.7405538-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 0.7967ms
+2020-02-06T09:09:21.7410686-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:21.7423680-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:09:21.7457674-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 8.3998ms 500 text/plain
+2020-02-06T09:09:30.7118925-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:09:30.7127727-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:30.7132484-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:09:30.7141036-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 0.7616ms
+2020-02-06T09:09:30.7144148-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:30.7154635-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:09:30.7165386-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.7794ms 500 text/plain
+2020-02-06T09:09:38.4981813-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:09:38.4992206-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:38.4996960-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:09:38.5007213-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 0.828ms
+2020-02-06T09:09:38.5010072-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:38.5020789-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:09:38.5036316-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5.4017ms 500 text/plain
+2020-02-06T09:09:51.0382825-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:09:51.0390924-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:51.0393653-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:09:51.0401819-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 0.7119ms
+2020-02-06T09:09:51.0404838-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:09:51.0417592-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:09:51.0427911-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.4947ms 500 text/plain
+2020-02-06T09:11:16.4324035-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:11:17.2690564-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:11:17.7002748-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:11:17.7004612-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:11:17.7008719-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:11:17.7009161-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:11:17.7009765-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:11:17.7981922-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:11:17.9526346-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 157.1726ms 200 text/html;charset=utf-8
+2020-02-06T09:11:18.0694284-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:11:18.0758498-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:11:18.0926864-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:11:18.0935710-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 23.8506ms 200 image/png
+2020-02-06T09:11:18.1643884-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 88.5499ms 200 application/json;charset=utf-8
+2020-02-06T09:11:19.8716512-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:11:19.8742048-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.6937ms 200 text/html;charset=utf-8
+2020-02-06T09:11:19.9469268-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:11:19.9522361-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:11:19.9532219-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:11:19.9593902-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.3754ms 200 image/png
+2020-02-06T09:11:19.9600497-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 13.5218ms 200 application/json;charset=utf-8
+2020-02-06T09:11:20.5032002-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:11:20.5046183-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.4033ms 200 text/html;charset=utf-8
+2020-02-06T09:11:20.6650168-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:11:20.6686795-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:11:20.6701797-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:11:20.6706193-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.3945ms 200 image/png
+2020-02-06T09:11:20.6744333-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9.3474ms 200 application/json;charset=utf-8
+2020-02-06T09:11:26.3662160-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:11:26.4629356-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:11:26.4932348-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:11:26.4993776-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2.2932ms
+2020-02-06T09:11:26.5000158-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:11:26.5027349-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:11:26.5447937-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 178.6249ms 500 text/plain
+2020-02-06T09:12:54.6012762-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:12:55.6194057-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:13:10.0290996-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:13:11.1473019-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:13:11.6251232-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:13:11.6251790-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:13:11.6256556-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:13:11.6256788-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:13:11.6257004-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:13:37.5313221-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:37.7037096-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 174.5428ms 200 text/html;charset=utf-8
+2020-02-06T09:13:37.8146503-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:37.8359190-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:37.8524838-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:37.8526465-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 37.9947ms 200 image/png
+2020-02-06T09:13:37.9216932-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 85.7766ms 200 application/json;charset=utf-8
+2020-02-06T09:13:48.2430138-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:13:49.0096537-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:13:49.4418447-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:13:49.4420330-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:13:49.4423024-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:13:49.4423363-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:13:49.4423703-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:13:49.9802185-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:50.1444052-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 166.3381ms 200 text/html;charset=utf-8
+2020-02-06T09:13:50.2533115-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:50.2577241-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:50.2802284-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:50.2804715-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 27.1714ms 200 image/png
+2020-02-06T09:13:50.3623763-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 104.6787ms 200 application/json;charset=utf-8
+2020-02-06T09:13:51.4632340-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:51.4649151-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.8169ms 200 text/html;charset=utf-8
+2020-02-06T09:13:51.5226471-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:51.5250668-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.4021ms 200 application/json;charset=utf-8
+2020-02-06T09:13:51.5272615-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:51.5279927-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:51.5280615-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.8323ms 200 image/png
+2020-02-06T09:13:52.3593244-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:52.3615760-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.3705ms 200 text/html;charset=utf-8
+2020-02-06T09:13:52.4219632-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:52.4362373-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:52.4393200-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 14.7452ms 200 application/json;charset=utf-8
+2020-02-06T09:13:52.4437245-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:52.4438144-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 7.9703ms 200 image/png
+2020-02-06T09:13:53.1275741-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:53.1289838-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.4325ms 200 text/html;charset=utf-8
+2020-02-06T09:13:53.1889832-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:53.1951784-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:53.1974377-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:53.1985291-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.9776ms 200 image/png
+2020-02-06T09:13:53.2043997-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 14.9987ms 200 application/json;charset=utf-8
+2020-02-06T09:13:53.7106739-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:53.7116859-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.0889ms 200 text/html;charset=utf-8
+2020-02-06T09:13:53.7691916-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:53.7749611-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:53.7758548-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6.6888ms 200 application/json;charset=utf-8
+2020-02-06T09:13:53.7759336-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:53.7760273-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.162ms 200 image/png
+2020-02-06T09:13:54.2105504-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:54.2115210-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.9886ms 200 text/html;charset=utf-8
+2020-02-06T09:13:54.2662090-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:54.2687407-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:54.2687641-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.6013ms 200 application/json;charset=utf-8
+2020-02-06T09:13:54.2694699-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:54.2696783-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.9251ms 200 image/png
+2020-02-06T09:13:54.7588650-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:54.7596348-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.8054ms 200 text/html;charset=utf-8
+2020-02-06T09:13:54.8167777-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:54.8204066-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:54.8207982-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.0405ms 200 application/json;charset=utf-8
+2020-02-06T09:13:54.8209143-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:54.8209660-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.5815ms 200 image/png
+2020-02-06T09:13:55.2553456-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:55.2560774-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.7438ms 200 text/html;charset=utf-8
+2020-02-06T09:13:55.3101890-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:55.3173177-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 7.1684ms 200 application/json;charset=utf-8
+2020-02-06T09:13:55.3213456-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:55.3222854-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:55.3251296-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3.7754ms 200 image/png
+2020-02-06T09:13:55.8149269-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:13:55.8157523-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 0.9157ms 200 text/html;charset=utf-8
+2020-02-06T09:13:55.8725060-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:13:55.8745954-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.0903ms 200 application/json;charset=utf-8
+2020-02-06T09:13:55.8751634-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:13:55.8763677-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:13:55.8764492-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1.3142ms 200 image/png
+2020-02-06T09:14:14.1944860-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:14:15.1467945-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:14:15.6510959-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:14:15.6512735-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:14:15.6514200-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:14:15.6514436-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:14:15.6514609-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:14:15.7716935-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:14:15.9399227-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 170.3542ms 200 text/html;charset=utf-8
+2020-02-06T09:14:16.0484895-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:14:16.0545836-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:14:16.0850223-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:14:16.0852334-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 36.7468ms 200 image/png
+2020-02-06T09:14:16.1615864-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 107.1552ms 200 application/json;charset=utf-8
+2020-02-06T09:14:48.5435887-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:14:49.3744763-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:14:49.8848934-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:14:49.8849605-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:14:49.8854080-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:14:49.8854423-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:14:49.8854757-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:14:50.1048464-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:14:50.2749304-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 172.334ms 200 text/html;charset=utf-8
+2020-02-06T09:14:50.3816318-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:14:50.3901979-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:14:50.4165613-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:14:50.4168362-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 35.1786ms 200 image/png
+2020-02-06T09:14:50.4987057-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 108.4938ms 200 application/json;charset=utf-8
+2020-02-06T09:15:00.3769107-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:15:01.3551906-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:15:01.8204972-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:15:01.8205849-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:15:01.8208056-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:15:01.8208263-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:15:01.8208464-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:15:01.9969583-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:15:02.1716219-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 178.0789ms 200 text/html;charset=utf-8
+2020-02-06T09:15:02.3124335-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:15:02.3371957-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:15:02.3624809-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:15:02.3626392-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 25.4393ms 200 image/png
+2020-02-06T09:15:02.4166234-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 104.2145ms 200 application/json;charset=utf-8
+2020-02-06T09:15:11.3514651-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:15:11.4362321-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:15:11.4773531-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:15:11.4834887-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2.0793ms
+2020-02-06T09:15:11.4841640-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:15:11.4869802-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:15:11.5295217-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 178.445ms 500 text/plain
+2020-02-06T09:15:43.1357951-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:15:44.0645778-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:15:44.5688860-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:15:44.5689402-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:15:44.5691060-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:15:44.5691303-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:15:44.5691501-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:15:44.7323822-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:15:44.8385058-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:15:44.8620683-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:15:44.8699829-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2.4735ms
+2020-02-06T09:15:44.8713142-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:15:44.8745521-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:15:44.9317580-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 201.4565ms 500 text/plain
+2020-02-06T09:15:45.7159605-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:15:45.7184436-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:15:45.7189617-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:15:45.7204879-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 1.3518ms
+2020-02-06T09:15:45.7209682-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:15:45.7228679-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:15:45.7263595-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 10.4013ms 500 text/plain
+2020-02-06T09:16:29.8225047-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:16:30.6972666-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-06T09:18:39.6765614-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:18:40.6594364-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-06T09:19:36.9201262-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:19:37.9029227-06:00 [FTL] [] : El inicio del API fallo...
+2020-02-06T09:20:20.4373000-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:20:21.1566135-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:20:21.5728402-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:20:21.5729299-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:20:21.5732369-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:20:21.5732753-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:20:21.5732977-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:20:24.1891909-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:20:24.3042121-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:20:24.3359729-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:20:24.4476911-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 107.8729ms
+2020-02-06T09:20:24.4489925-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:20:24.4531645-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:20:24.5103900-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 324.0129ms 500 text/plain
+2020-02-06T09:20:45.2556065-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:20:46.0621487-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:20:46.4988931-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:20:46.4989498-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:20:46.4991622-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:20:46.4991823-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:20:46.4991961-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:20:47.9209585-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:20:48.0468358-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:20:48.0800797-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:20:48.1740373-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 90.0005ms
+2020-02-06T09:20:48.1750430-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:20:48.1778041-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:20:48.2318832-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 313.5524ms 500 text/plain
+2020-02-06T09:20:49.6530627-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:20:49.6557571-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:20:49.6654986-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:20:49.7161488-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 46.1466ms
+2020-02-06T09:20:49.7164240-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:20:49.7174642-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:20:49.7254495-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 66.3168ms 500 text/plain
+2020-02-06T09:20:52.7869450-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:20:52.9220864-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 135.3027ms 200 text/html;charset=utf-8
+2020-02-06T09:20:53.0134584-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:20:53.0219023-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:20:53.0324854-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:20:53.0329832-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 11.1077ms 200 image/png
+2020-02-06T09:20:53.1122017-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 99.1832ms 200 application/json;charset=utf-8
+2020-02-06T09:21:00.0921196-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:21:00.0950903-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:21:00.0959588-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:21:00.1333081-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 37.0714ms
+2020-02-06T09:21:00.1336852-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:21:00.1347922-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:21:00.1359848-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 44.3977ms 500 text/plain
+2020-02-06T09:21:17.9041229-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:21:18.8082392-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:21:19.2823589-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:21:19.2824555-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:21:19.2827794-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:21:19.2828380-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:21:19.2829492-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:21:20.3058910-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:21:20.4749339-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 171.8191ms 200 text/html;charset=utf-8
+2020-02-06T09:21:20.5970143-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:21:20.6020426-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:21:20.6238651-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:21:20.6241962-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 27.1456ms 200 image/png
+2020-02-06T09:21:20.6995535-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 97.5102ms 200 application/json;charset=utf-8
+2020-02-06T09:21:21.6803429-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:21:21.6854838-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4.9451ms 200 text/html;charset=utf-8
+2020-02-06T09:21:21.7577524-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:21:21.7632279-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:21:21.7646394-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:21:21.7648130-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.1714ms 200 image/png
+2020-02-06T09:21:21.7650649-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 7.5714ms 200 application/json;charset=utf-8
+2020-02-06T09:21:31.3770952-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:21:32.2561924-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:21:32.7214944-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:21:32.7215839-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:21:32.7219873-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:21:32.7220078-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:21:32.7220276-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:21:37.5086889-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:21:37.6240601-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:21:37.6570789-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:21:37.7558823-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 94.5431ms
+2020-02-06T09:21:37.7569313-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:21:37.7598060-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:21:37.8126820-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 306.2798ms 500 text/plain
+2020-02-06T09:21:47.4063210-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:21:48.1464838-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:21:48.5745262-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:21:48.5746061-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:21:48.5747638-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:21:48.5747816-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:21:48.5748030-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:21:49.4161955-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:21:49.5375441-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:21:49.5721398-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:21:51.8783605-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2301.9418ms
+2020-02-06T09:21:51.8794660-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:21:51.8827123-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-02-06T09:21:51.9466402-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2532.8026ms 500 text/plain
+2020-02-06T09:22:07.3787955-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:22:08.2309018-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:22:08.7275569-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:22:08.7276015-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:22:08.7281394-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:22:08.7281805-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:22:08.7282026-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:22:09.2611182-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T09:22:09.3784304-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:22:09.4105945-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T09:22:09.4296901-06:00 [ERR] [] : Error 
+2020-02-06T09:22:11.6152187-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T09:22:11.6291487-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2210.8791ms
+2020-02-06T09:22:11.6296907-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T09:22:11.6316597-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2372.4433ms 200 text/plain; charset=utf-8
+2020-02-06T09:30:38.4748246-06:00 [INF] [] : Iniciado API...
+2020-02-06T09:30:39.4073527-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T09:30:39.8574415-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T09:30:39.8575141-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T09:30:39.8579500-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T09:30:39.8579757-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T09:30:39.8580013-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T09:30:46.4594585-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T09:30:46.6242378-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 166.9744ms 200 text/html;charset=utf-8
+2020-02-06T09:30:46.8332523-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T09:30:46.8572316-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T09:30:46.8649167-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T09:30:46.8650590-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 31.8844ms 200 image/png
+2020-02-06T09:30:46.9567268-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 99.4749ms 200 application/json;charset=utf-8
+2020-02-06T10:08:52.1183935-06:00 [INF] [] : Iniciado API...
+2020-02-06T10:08:52.9044267-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T10:08:53.2980159-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T10:08:53.2982412-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T10:08:53.2984242-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T10:08:53.2984413-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T10:08:53.2984606-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T10:14:41.0528544-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application is shutting down...
+2020-02-06T12:10:57.8026450-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:11:00.3271259-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:11:02.2270950-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:11:02.2274310-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:11:02.2277078-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:11:02.2277355-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:11:02.2277586-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:11:02.5751195-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T12:11:02.8812099-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 308.0129ms 200 text/html;charset=utf-8
+2020-02-06T12:11:03.1796484-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T12:11:03.1961521-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T12:11:03.2541452-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T12:11:03.2545150-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 58.2319ms 200 image/png
+2020-02-06T12:11:03.3139943-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 134.4946ms 200 application/json;charset=utf-8
+2020-02-06T12:16:20.7044842-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:16:21.6803827-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:16:22.3280265-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:16:22.3281946-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:16:22.3285155-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:16:22.3285415-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:16:22.3285574-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:16:26.1779797-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:16:26.7821921-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:16:26.8225674-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:18:08.6618513-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:18:09.6594405-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:18:10.0429069-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:18:10.0429630-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:18:10.0433491-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:18:10.0434002-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:18:10.0434225-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:18:10.1462001-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T12:18:10.3265859-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 183.1317ms 200 text/html;charset=utf-8
+2020-02-06T12:18:10.4729287-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T12:18:10.4886017-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T12:18:10.5254230-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T12:18:10.5257880-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 37.1608ms 200 image/png
+2020-02-06T12:18:10.5989260-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 126.0345ms 200 application/json;charset=utf-8
+2020-02-06T12:18:11.5179409-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T12:18:11.5205259-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.6851ms 200 text/html;charset=utf-8
+2020-02-06T12:18:11.5779111-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T12:18:11.5831050-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T12:18:11.5840033-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T12:18:11.5852008-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2.2749ms 200 image/png
+2020-02-06T12:18:11.5921094-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 14.3424ms 200 application/json;charset=utf-8
+2020-02-06T12:18:17.9562978-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:18:18.0578782-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:18:18.0941253-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:18:23.2634527-06:00 [INF] [Microsoft.AspNetCore.Mvc.StatusCodeResult] : Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-02-06T12:18:23.2677353-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 5169.3388ms
+2020-02-06T12:18:23.2678202-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:18:23.2682255-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5312.1006ms 200 
+2020-02-06T12:18:26.3263151-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:18:26.3299000-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:18:26.3391827-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:18:29.4184244-06:00 [INF] [Microsoft.AspNetCore.Mvc.StatusCodeResult] : Executing HttpStatusCodeResult, setting HTTP status code 200
+2020-02-06T12:18:29.4186068-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 3079.1575ms
+2020-02-06T12:18:29.4186689-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:18:29.4189954-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3092.7009ms 200 
+2020-02-06T12:34:16.6691918-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:34:17.5879293-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:34:17.9980485-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:34:17.9982497-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:34:17.9986131-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:34:17.9986359-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:34:17.9986523-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:34:42.6491628-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T12:34:42.8311222-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 184.1913ms 200 text/html;charset=utf-8
+2020-02-06T12:34:46.2693111-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T12:34:46.2856245-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 16.399ms 200 text/html;charset=utf-8
+2020-02-06T12:34:46.4067021-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T12:34:46.4356988-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T12:34:46.4781624-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T12:34:46.4783940-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 42.6805ms 200 image/png
+2020-02-06T12:34:46.5348229-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 128.0036ms 200 application/json;charset=utf-8
+2020-02-06T12:34:54.1772773-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:34:54.2831176-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:34:54.3130034-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:34:54.5116226-06:00 [ERR] [] : Error 
+2020-02-06T12:34:54.5152954-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:34:54.5206135-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 203.0064ms
+2020-02-06T12:34:54.5206980-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:34:54.5208793-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 343.9571ms 500 text/plain; charset=utf-8
+2020-02-06T12:36:11.9816592-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:36:12.7868347-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:36:13.1982267-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:36:13.1982937-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:36:13.1987025-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:36:13.1987319-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:36:13.1987495-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:36:14.6012212-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/index.html  
+2020-02-06T12:36:14.7622484-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 162.6632ms 200 text/html;charset=utf-8
+2020-02-06T12:36:14.8901979-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/favicon-32x32.png  
+2020-02-06T12:36:14.8966555-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/swagger/v1/swagger.json  
+2020-02-06T12:36:14.9180114-06:00 [INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] : Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2020-02-06T12:36:14.9183112-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 28.0752ms 200 image/png
+2020-02-06T12:36:14.9964910-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 99.9129ms 200 application/json;charset=utf-8
+2020-02-06T12:36:21.7015697-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:36:21.7929050-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:36:21.8230448-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:36:21.8386964-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" 
+2020-02-06T12:36:21.8999052-06:00 [ERR] [] : Error 
+2020-02-06T12:36:21.9027123-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:36:21.9096328-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 80.1599ms
+2020-02-06T12:36:21.9097221-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:36:21.9098935-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 208.6209ms 500 text/plain; charset=utf-8
+2020-02-06T12:37:06.8898179-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:37:06.8921882-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:37:06.8925686-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:37:06.9220694-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" 
+2020-02-06T12:37:06.9571651-06:00 [ERR] [] : Error 
+2020-02-06T12:37:06.9585855-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:37:06.9621270-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 69.4137ms
+2020-02-06T12:37:06.9622187-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:37:06.9624310-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 72.6929ms 500 text/plain; charset=utf-8
+2020-02-06T12:37:13.5629463-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:37:13.5719892-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:37:13.5729104-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:37:13.5760788-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" 
+2020-02-06T12:37:13.6100600-06:00 [ERR] [] : Error 
+2020-02-06T12:37:13.6103866-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:37:13.6106455-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 37.6143ms
+2020-02-06T12:37:13.6106768-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:37:13.6107996-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 48.0672ms 500 text/plain; charset=utf-8
+2020-02-06T12:37:27.9467638-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:37:27.9478560-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:37:27.9483730-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:37:38.4954019-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" 
+2020-02-06T12:37:43.4833884-06:00 [ERR] [] : Error 
+2020-02-06T12:37:43.4837354-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:37:43.4840063-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 15535.4909ms
+2020-02-06T12:37:43.4840446-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:37:43.4841559-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 15537.7004ms 500 text/plain; charset=utf-8
+2020-02-06T12:38:02.7930759-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:38:03.5394442-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:38:04.0225041-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:38:04.0225775-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:38:04.0228089-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:38:04.0228376-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:38:04.0228546-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:38:07.5716739-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:38:07.6885603-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:38:07.7219178-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:38:09.7784121-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" 
+2020-02-06T12:38:09.8169344-06:00 [ERR] [] : Error 
+2020-02-06T12:38:09.8199928-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:38:09.8279605-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2101.2441ms
+2020-02-06T12:38:09.8284154-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:38:09.8298166-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2260.5833ms 500 text/plain; charset=utf-8
+2020-02-06T12:38:29.7841390-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:38:30.7699488-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:38:31.3117280-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:38:31.3117833-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:38:31.3121706-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:38:31.3122034-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:38:31.3122428-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:38:31.4995803-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:38:31.6026589-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:38:31.6369783-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:38:34.5625406-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" "Device: 2"
+2020-02-06T12:38:34.6004217-06:00 [ERR] [] : Error 
+2020-02-06T12:38:34.6051908-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:38:34.6170400-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2971.2491ms
+2020-02-06T12:38:34.6175021-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:38:34.6200097-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 3122.4978ms 500 text/plain; charset=utf-8
+2020-02-06T12:39:01.5811945-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:39:02.3928462-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:39:02.8265843-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:39:02.8266597-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:39:02.8269442-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:39:02.8269820-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:39:02.8270110-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:39:06.5422004-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:39:06.6569015-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:39:06.6889351-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:39:06.7115811-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" Device: "2"
+2020-02-06T12:39:06.7771364-06:00 [ERR] [] : Error 
+2020-02-06T12:39:06.7810365-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:39:06.7877116-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 94.4719ms
+2020-02-06T12:39:06.7881512-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:39:06.7896808-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 249.8201ms 500 text/plain; charset=utf-8
+2020-02-06T12:40:07.9358074-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:40:08.7439281-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:40:09.1765198-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:40:09.1765840-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:40:09.1770067-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:40:09.1770357-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:40:09.1770516-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:40:20.3502515-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:40:20.4589831-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:40:20.4927742-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:40:20.5151708-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" Device: "2"
+2020-02-06T12:40:37.9362459-06:00 [ERR] [] : Error 
+2020-02-06T12:40:37.9395930-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:40:37.9522349-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 17452.6305ms
+2020-02-06T12:40:37.9527436-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:40:37.9545615-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 17607.0185ms 500 text/plain; charset=utf-8
+2020-02-06T12:40:41.4477457-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:40:41.4506394-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:40:41.4511509-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:40:44.9633857-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" Device: "2"
+2020-02-06T12:41:02.7701610-06:00 [ERR] [] : Error 
+2020-02-06T12:41:02.7718844-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:41:02.7732113-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 21321.7148ms
+2020-02-06T12:41:02.7736479-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:41:02.7742831-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 21326.544ms 500 text/plain; charset=utf-8
+2020-02-06T12:41:05.3332255-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:41:05.3364901-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:44:24.0237929-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:44:24.7700988-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:44:25.2877748-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:44:25.2879342-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:44:25.2881385-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:44:25.2881772-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:44:25.2882031-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:44:26.9210555-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:44:27.0399818-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:44:27.0719943-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:44:32.6261984-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" Device: "2"
+2020-02-06T12:44:43.1657159-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2020-02-06T12:44:43.1851812-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 16108.2457ms
+2020-02-06T12:44:43.1856797-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:44:43.1872851-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 16268.8265ms 200 application/json; charset=utf-8
+2020-02-06T12:44:57.4665383-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:44:58.2530420-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:44:58.7195361-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:44:58.7196582-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:44:58.7200337-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:44:58.7200666-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:44:58.7200908-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:45:00.9591859-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:45:01.0769718-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:45:01.1072597-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:45:03.2205355-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" Device: "2"
+2020-02-06T12:45:12.3754609-06:00 [ERR] [] : Error 
+2020-02-06T12:45:12.3789432-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:45:12.3915008-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 11275.5135ms
+2020-02-06T12:45:12.3921420-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:45:12.3937681-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 11438.849ms 500 text/plain; charset=utf-8
+2020-02-06T12:45:49.0297026-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:45:49.0320342-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:49:24.5666549-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:49:25.4166263-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:49:25.9391032-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:49:25.9391712-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:49:25.9393267-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:49:25.9393458-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:49:25.9393606-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:49:31.1322231-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:49:31.2606368-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:49:31.2959907-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:49:37.2282010-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" Device: "2"
+2020-02-06T12:49:40.2789019-06:00 [ERR] [] : Error 
+2020-02-06T12:49:40.2836207-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:49:40.2900236-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 8989.9148ms
+2020-02-06T12:49:40.2904856-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:49:40.2917077-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 9162.2443ms 500 text/plain; charset=utf-8
+2020-02-06T12:50:22.8853104-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:50:23.6754670-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:50:24.1468156-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:50:24.1468924-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:50:24.1471783-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:50:24.1472034-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:50:24.1472216-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:50:27.9821251-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:50:28.1077470-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:50:28.1423311-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:51:15.2424920-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:51:16.0808350-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:51:16.5756848-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:51:16.5792328-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:51:16.5834962-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:51:16.5835766-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:51:16.5836252-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:51:25.2518523-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:51:26.1744458-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:51:26.7661062-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:51:26.7739951-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:51:26.7743734-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:51:26.7744244-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:51:26.7744479-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:51:29.9045006-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:51:30.0208641-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:51:30.0517015-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:51:30.0740864-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" Device: "2"
+2020-02-06T12:51:30.1390662-06:00 [ERR] [] : Error 
+2020-02-06T12:51:32.0640231-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:51:32.0763399-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2019.3123ms
+2020-02-06T12:51:32.0767832-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:51:32.0782477-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2175.8275ms 500 text/plain; charset=utf-8
+2020-02-06T12:51:52.7462937-06:00 [INF] [] : Iniciado API...
+2020-02-06T12:51:53.5839843-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\zaetr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-06T12:51:54.0239072-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:4000"
+2020-02-06T12:51:54.0239708-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:4001"
+2020-02-06T12:51:54.0241652-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-02-06T12:51:54.0241889-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-02-06T12:51:54.0242046-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "E:\Documentos\OneDrive\Mis Proyectos\Web Services\AsesoresAPI"
+2020-02-06T12:52:27.8459081-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://127.0.0.1:4000/cartera/1  
+2020-02-06T12:52:27.9662255-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:52:28.0004939-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"GetCartera\", controller = \"Cartera\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCartera(System.String, System.String)" on controller "AsesoresAPI.Controllers.CarteraController" ("AsesoresAPI").
+2020-02-06T12:52:28.0235539-06:00 [INF] [AsesoresAPI.Controllers.CarteraController] : Usuario: "1" IP: "127.0.0.1" Device: "2"
+2020-02-06T12:52:28.0900786-06:00 [ERR] [] : Error 
+2020-02-06T12:52:30.7179474-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"System.String"'.
+2020-02-06T12:52:30.7342136-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)" in 2727.9595ms
+2020-02-06T12:52:30.7348729-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"AsesoresAPI.Controllers.CarteraController.GetCartera (AsesoresAPI)"'
+2020-02-06T12:52:30.7368429-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 2893.8166ms 500 text/plain; charset=utf-8
