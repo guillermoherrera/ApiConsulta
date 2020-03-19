@@ -27,6 +27,7 @@ namespace ApiConsulta.Helpers
                     dt.Columns.Add("saldoActual");
                     dt.Columns.Add("saldoAtrazado");
                     dt.Columns.Add("diasAtrazo");
+                    dt.Columns.Add("telefono");
                     break;
                 default:
                     break;
@@ -39,7 +40,7 @@ namespace ApiConsulta.Helpers
                 case 1:
                     while (dr.Read())
                     {
-                        dt.Rows.Add(dr[0], dr[1], dr[2], dr[3], dr[4], dr[5], dr[6], dr[7], dr[8], dr[9], dr[10], dr[11]);
+                        dt.Rows.Add(dr[0], dr[1], dr[2], dr[3], dr[4], dr[5], dr[6], dr[7], dr[8], dr[9], dr[10], dr[11], dr[12]);
                     }
                     break;
                 default:

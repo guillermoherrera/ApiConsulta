@@ -40,10 +40,17 @@ namespace ApiConsulta.SQL
                         consulta.apellidoPaterno = dataRow[2].ToString();
                         consulta.apellidoMaterno = dataRow[3].ToString();
                         consulta.fechaNacimiento = DateTime.Parse(dataRow[4].ToString());
-                        consulta.rfc = dataRow[5].ToString();
+                        //consulta.rfc = dataRow[5].ToString();
                         consulta.creditosActivos = exec.Rows.Count;
                         consulta.creditos = new List<Credito>();
+                        consulta.telefono = dataRow[12].ToString();
                     }
+                    
+                    if (String.IsNullOrEmpty(consulta.rfc))
+                    {
+                        consulta.rfc = dataRow[5].ToString();
+                    }
+
                     if (consulta.creditos != null)
                     {
                         Credito credito = new Credito();

@@ -13,6 +13,7 @@ namespace ApiConsulta.Entities
         public string apellidoMaterno { get; set; }
         public DateTime fechaNacimiento { get; set; }
         public string rfc { get; set; }
+        public string telefono { get; set; }
         public int creditosActivos { get; set; }
 
         public List<Credito> creditos { get; set; }

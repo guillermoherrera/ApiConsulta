@@ -1,0 +1,102 @@
+2020-03-17T16:22:11.5177957-06:00 [INF] [] : Iniciado API...
+2020-03-17T16:22:13.8298083-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-17T16:22:16.1048400-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:3000"
+2020-03-17T16:22:16.1052228-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:3001"
+2020-03-17T16:22:16.1054332-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-17T16:22:16.1054677-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-17T16:22:16.1054851-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\ApiConsulta"
+2020-03-17T16:22:22.9632077-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  0
+2020-03-17T16:22:24.1790252-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-17T16:22:24.1791931-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-17T16:22:24.1828501-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUAO6KSRS8U"", Request id ""0HLUAO6KSRS8U:00000001"": An unhandled exception was thrown by the application.
+2020-03-17T16:22:24.1838795-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1222.9781ms 500 
+2020-03-17T16:23:31.2238289-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  
+2020-03-17T16:23:31.2996788-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-17T16:23:31.2998508-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-17T16:23:31.3007921-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUAO6KSRS8V"", Request id ""0HLUAO6KSRS8V:00000001"": An unhandled exception was thrown by the application.
+2020-03-17T16:23:31.3012735-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 77.5515ms 500 
+2020-03-17T16:23:49.4500930-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  0
+2020-03-17T16:23:49.5245986-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-17T16:23:49.5246969-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-17T16:23:49.5252023-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUAO6KSRS90"", Request id ""0HLUAO6KSRS90:00000001"": An unhandled exception was thrown by the application.
+2020-03-17T16:23:49.5255411-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 75.9778ms 500 
+2020-03-17T16:24:09.6150890-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  
+2020-03-17T16:24:09.6798659-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-17T16:24:09.6802698-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-17T16:24:09.6823912-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUAO6KSRS91"", Request id ""0HLUAO6KSRS91:00000001"": An unhandled exception was thrown by the application.
+2020-03-17T16:24:09.6840767-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 68.5667ms 500 
+2020-03-17T16:26:51.2215308-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  
+2020-03-17T16:26:51.2962778-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-17T16:26:51.2963306-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-17T16:26:51.2966591-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUAO6KSRS92"", Request id ""0HLUAO6KSRS92:00000001"": An unhandled exception was thrown by the application.
+2020-03-17T16:26:51.2968743-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 75.9304ms 500 
+2020-03-17T16:27:12.8558479-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  
+2020-03-17T16:27:12.9488889-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-17T16:27:12.9491015-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-17T16:27:12.9500917-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUAO6KSRS93"", Request id ""0HLUAO6KSRS93:00000001"": An unhandled exception was thrown by the application.
+2020-03-17T16:27:12.9505200-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 95.538ms 500 
+2020-03-17T16:27:44.0230721-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  
+2020-03-17T16:27:48.1837040-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-17T16:27:48.1837747-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-17T16:27:48.1841877-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUAO6KSRS94"", Request id ""0HLUAO6KSRS94:00000001"": An unhandled exception was thrown by the application.
+2020-03-17T16:27:48.1844180-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 4161.4186ms 500 
+2020-03-17T16:31:09.2000825-06:00 [INF] [] : Iniciado API...
+2020-03-17T16:31:10.0688873-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-17T16:31:10.5513949-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:3000"
+2020-03-17T16:31:10.5514587-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:3001"
+2020-03-17T16:31:10.5516422-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-17T16:31:10.5516639-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-17T16:31:10.5516790-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\ApiConsulta"
+2020-03-17T16:31:11.8104551-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  
+2020-03-17T16:31:22.4743765-06:00 [ERR] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : An unhandled exception has occurred while executing the request.
+2020-03-17T16:31:22.4744702-06:00 [WRN] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] : The response has already started, the error page middleware will not be executed.
+2020-03-17T16:31:22.4790430-06:00 [ERR] [Microsoft.AspNetCore.Server.Kestrel] : Connection id ""0HLUAOBIMOUMN"", Request id ""0HLUAOBIMOUMN:00000001"": An unhandled exception was thrown by the application.
+2020-03-17T16:31:22.4810911-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 10672.4708ms 500 
+2020-03-17T16:31:30.3218374-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  
+2020-03-17T16:39:03.2136722-06:00 [INF] [] : Iniciado API...
+2020-03-17T16:39:04.0672268-06:00 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] : User profile is available. Using '"C:\Users\gherr\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-03-17T16:39:04.5132832-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "http://0.0.0.0:3000"
+2020-03-17T16:39:04.5133862-06:00 [INF] [Microsoft.Hosting.Lifetime] : Now listening on: "https://0.0.0.0:3001"
+2020-03-17T16:39:04.5136030-06:00 [INF] [Microsoft.Hosting.Lifetime] : Application started. Press Ctrl+C to shut down.
+2020-03-17T16:39:04.5136384-06:00 [INF] [Microsoft.Hosting.Lifetime] : Hosting environment: "Development"
+2020-03-17T16:39:04.5136579-06:00 [INF] [Microsoft.Hosting.Lifetime] : Content root path: "C:\Users\gherr\Documents\Proyectos\ApiConsulta"
+2020-03-17T16:39:06.9900762-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  
+2020-03-17T16:39:09.6902322-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:39:10.1246993-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"getCurp\", controller = \"Consulta\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getCurp(System.String)" on controller "ApiConsulta.Controllers.ConsultaController" ("ApiConsulta").
+2020-03-17T16:39:10.1595454-06:00 [INF] [ApiConsulta.Controllers.ConsultaController] : Usuario: "" IP: "192.168.70.94" Device: ""
+2020-03-17T16:39:13.1370090-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ApiConsulta.Entities.CreditoDetalle, ApiConsulta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-03-17T16:39:13.1733036-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)" in 3044.4105ms
+2020-03-17T16:39:13.1739708-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:39:13.1782475-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 6192.839ms 200 application/json; charset=utf-8
+2020-03-17T16:39:29.1567096-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  0
+2020-03-17T16:39:32.8103287-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:39:32.8107981-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"getCurp\", controller = \"Consulta\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getCurp(System.String)" on controller "ApiConsulta.Controllers.ConsultaController" ("ApiConsulta").
+2020-03-17T16:39:32.8115105-06:00 [INF] [ApiConsulta.Controllers.ConsultaController] : Usuario: "" IP: "192.168.70.93" Device: ""
+2020-03-17T16:39:34.5047757-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ApiConsulta.Entities.CreditoDetalle, ApiConsulta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-03-17T16:39:34.5072165-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)" in 1696.3264ms
+2020-03-17T16:39:34.5073003-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:39:34.5075144-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 5350.9547ms 200 application/json; charset=utf-8
+2020-03-17T16:42:50.5172174-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  0
+2020-03-17T16:42:50.5293816-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:42:50.5300465-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"getCurp\", controller = \"Consulta\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getCurp(System.String)" on controller "ApiConsulta.Controllers.ConsultaController" ("ApiConsulta").
+2020-03-17T16:42:50.5329765-06:00 [INF] [ApiConsulta.Controllers.ConsultaController] : Usuario: "" IP: "192.168.70.93" Device: ""
+2020-03-17T16:42:51.9812621-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ApiConsulta.Entities.CreditoDetalle, ApiConsulta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-03-17T16:42:51.9827142-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)" in 1452.4674ms
+2020-03-17T16:42:51.9830033-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:42:51.9837483-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1466.8236ms 200 application/json; charset=utf-8
+2020-03-17T16:43:24.8489289-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  0
+2020-03-17T16:43:24.8570526-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:43:24.8575962-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"getCurp\", controller = \"Consulta\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getCurp(System.String)" on controller "ApiConsulta.Controllers.ConsultaController" ("ApiConsulta").
+2020-03-17T16:43:24.8585046-06:00 [INF] [ApiConsulta.Controllers.ConsultaController] : Usuario: "" IP: "192.168.70.93" Device: ""
+2020-03-17T16:43:26.2576863-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ApiConsulta.Entities.CreditoDetalle, ApiConsulta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-03-17T16:43:26.2585453-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)" in 1400.8057ms
+2020-03-17T16:43:26.2586007-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:43:26.2588279-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1410.207ms 200 application/json; charset=utf-8
+2020-03-17T16:45:27.6745860-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request starting HTTP/1.1 GET http://192.168.70.94:3000/consulta/curp  0
+2020-03-17T16:45:27.6858555-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executing endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:45:27.6862882-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Route matched with "{action = \"getCurp\", controller = \"Consulta\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getCurp(System.String)" on controller "ApiConsulta.Controllers.ConsultaController" ("ApiConsulta").
+2020-03-17T16:45:27.6870160-06:00 [INF] [ApiConsulta.Controllers.ConsultaController] : Usuario: "" IP: "192.168.70.93" Device: ""
+2020-03-17T16:45:29.0153710-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] : Executing ObjectResult, writing value of type '"<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ApiConsulta.Entities.CreditoDetalle, ApiConsulta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2020-03-17T16:45:29.0160823-06:00 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] : Executed action "ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)" in 1329.6409ms
+2020-03-17T16:45:29.0161727-06:00 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] : Executed endpoint '"ApiConsulta.Controllers.ConsultaController.getCurp (ApiConsulta)"'
+2020-03-17T16:45:29.0164555-06:00 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] : Request finished in 1341.9404ms 200 application/json; charset=utf-8

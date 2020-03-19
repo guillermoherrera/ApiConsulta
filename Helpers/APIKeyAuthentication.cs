@@ -44,7 +44,8 @@ namespace ApiConsulta.Helpers
                 System.Data.SqlClient.SqlParameter[] parameters =
                 {
                     new System.Data.SqlClient.SqlParameter("@apiKeyName", System.Data.SqlDbType.VarChar, 50) { Direction = System.Data.ParameterDirection.Output },
-                    new System.Data.SqlClient.SqlParameter("@apiKeyValue", System.Data.SqlDbType.VarChar, 50) { Direction = System.Data.ParameterDirection.Output }
+                    new System.Data.SqlClient.SqlParameter("@apiKeyValue", System.Data.SqlDbType.VarChar, 250) { Direction = System.Data.ParameterDirection.Output },
+                    new System.Data.SqlClient.SqlParameter("@apiName", appSettings.APIKeyName ) {SqlDbType =System.Data.SqlDbType.VarChar, Size = 50 , Direction = System.Data.ParameterDirection.Input }
                 };
 
                 await connection.OpenAsync();
