@@ -12,6 +12,7 @@ namespace ApiConsulta.Services
     public interface IConsultaService
     {
         Task<CreditoDetalle> getCurp(string curp);
+        Task<DispoibilidadNombre> getDispNomGrupo(string nombreGrupo, int sistema);
     }
     public class ConsultaService : IConsultaService
     {
@@ -26,6 +27,13 @@ namespace ApiConsulta.Services
         {
             ConsultaSQL sql = new ConsultaSQL(_appSettings);
             CreditoDetalle datos = await sql.getCurp(curp);
+            return datos;
+        }
+
+        public async Task<DispoibilidadNombre> getDispNomGrupo(string nombreGrupo, int sistema)
+        {
+            ConsultaSQL sql = new ConsultaSQL(_appSettings);
+            DispoibilidadNombre datos = await sql.getDispNombreGrupo(nombreGrupo, sistema);
             return datos;
         }
     }

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using WebApi.Entities;
+//using WebApi.Entities;
 
 namespace ApiConsulta.Helpers
 {

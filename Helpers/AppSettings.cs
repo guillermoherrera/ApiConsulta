@@ -21,6 +21,7 @@ namespace WebApi.Helpers
         public string procedureCreditoDetalle { get; set; }
         public string procedureCarteraGrupos { get; set; }
         public string procedureConsultaCurp { get; set; }
+        public string procedureConsultaDispNombreGrupo { get; set; }
 
         public string APIKeyName { get; set; }
         public string APIKeyValue { get; set; }

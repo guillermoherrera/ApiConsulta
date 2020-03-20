@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WebApi.Helpers;
-using WebApi.Services;
+//using WebApi.Services;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -57,9 +57,9 @@ namespace WebApi
                 };
             });
 
-            services.AddScoped<IUsuarioService, UsuarioService>();
-            services.AddScoped<ICarteraService, CarteraService>();
-            services.AddScoped<IRenovacionService, RenovacionService>();
+            //services.AddScoped<IUsuarioService, UsuarioService>();
+            //services.AddScoped<ICarteraService, CarteraService>();
+            //services.AddScoped<IRenovacionService, RenovacionService>();
             services.AddScoped<IConsultaService, ConsultaService>();
 
             services.AddSwaggerGen(c =>
